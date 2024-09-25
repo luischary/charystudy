@@ -1,5 +1,6 @@
 import re
 from pathlib import Path
+import hashlib
 
 import pandas as pd
 import fitz
@@ -86,7 +87,7 @@ def mapeia_repo(root_path):
     Pega os dados dos pdfs e tambem ja guarda a extrutura que esta organizado
     para aproveitar a hierarquia de classificacao dos dados
     """
-    dados_coletados = {"pdf_path": [], "pdf_name": [], "arxiv_line": []}
+    dados_coletados = {"pdf_path": [], "pdf_hash": [], "pdf_name": [], "arxiv_line": []}
     pastas = [Path(root_path)]
     while len(pastas) > 0:
         p = pastas.pop(0)
@@ -96,6 +97,9 @@ def mapeia_repo(root_path):
                 pastas.append(f)
             elif f.suffix.lower() == ".pdf":
                 dados_pdf = extrai_dados_basicos(f.as_posix())
+                dados_coletados["pdf_hash"].append(
+                    hashlib.md5(f.read_bytes()).hexdigest()
+                )
                 dados_coletados["pdf_path"].append(f.as_posix())
                 dados_coletados["arxiv_line"].append(dados_pdf["arxiv_line"])
                 dados_coletados["pdf_name"].append(dados_pdf["name"])

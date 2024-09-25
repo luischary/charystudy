@@ -1,4 +1,6 @@
 from pathlib import Path
+import json
+import datetime
 
 import pandas as pd
 
@@ -17,10 +19,11 @@ def create_md_path(node_name: str, node_parents: list[str] = []):
 
 
 class Paper:
-    def __init__(self, name, arxiv_id, arxiv_date):
+    def __init__(self, name, arxiv_id, arxiv_date, description=""):
         self.name = name
         self.id = arxiv_id
         self.date = arxiv_date
+        self.description = description
 
 
 class No:
@@ -30,12 +33,11 @@ class No:
         self.children = []
         self.parents = parents
         # para montar o markdown
-        self.title = """## {topic}\n\n"""
-        self.paper_template = """### {name}
-- **{date}**
-- https://arxiv.org/pdf/{arxiv_id}"""
-        self.paper_template_nodate = """### {name}
-- **https://arxiv.org/pdf/{arxiv_id}**"""
+        self.template_title = """## {topic}\n\n"""
+        self.template_name = """### {name}"""
+        self.template_date = """**{date}**"""
+        self.template_url = """https://arxiv.org/pdf/{arxiv_id}"""
+        self.template_description = """\n\n{description}"""
 
     def create_markdown(self):
         # precisa ordenar pela data antes, o que nao tiver data vai ser ordenado
@@ -57,15 +59,24 @@ class No:
         sem_data.sort(key=lambda x: x.name)
 
         # agora comeca o markdown
-        md = self.title.format(topic=" -> ".join(self.parents + [self.name]))
+        md = self.template_title.format(topic=" -> ".join(self.parents + [self.name]))
         # adiciona os caras sem data primeiro
         for p in sem_data:
-            md += "\n" + self.paper_template_nodate.format(name=p.name, arxiv_id=p.id)
+            md += "\n\n" + self.template_name.format(name=p.name)
+            if p.id != "":
+                md += "\n\n" + self.template_url.format(arxiv_id=p.id)
+            if p.description != "":
+                md += self.template_description.format(description=p.description)
+            md += "\n\n---"
         # agora os caras ordenados pela data
         for p in com_data:
-            md += "\n" + self.paper_template.format(
-                name=p.name, arxiv_id=p.id, date=p.date.strftime("%Y-%m-%d")
-            )
+            md += "\n\n" + self.template_name.format(name=p.name)
+            md += "\n\n" + self.template_date.format(date=p.date.strftime("%Y-%m-%d"))
+            if p.id != "":
+                md += "\n\n" + self.template_url.format(arxiv_id=p.id)
+            if p.description != "":
+                md += self.template_description.format(description=p.description)
+            md += "\n\n---"
 
         file_path = create_md_path(node_name=self.name, node_parents=self.parents)
         file_path.write_text(md, encoding="utf8")
@@ -137,11 +148,25 @@ def faz_nlp(root=Path("./Papers")):
     arvore = Arvore("raiz")
 
     for _, row in dados.iterrows():
-        p = Paper(
-            row.pdf_name,
-            row.arxiv_id,
-            row.arxiv_date if not pd.isna(row.arxiv_date) else None,
-        )
+        paper_hash = row.pdf_hash
+        extracted_path = Path(f"./dados_extraidos/{paper_hash}.json")
+        nome = row.pdf_name
+        arxiv_id = row.arxiv_id
+        data = row.arxiv_date if not pd.isna(row.arxiv_date) else None
+        summary = ""
+        if extracted_path.exists():
+            try:
+                dados = json.loads(extracted_path.read_text(encoding="utf8"))
+                nome = dados["title"]
+                if dados["arxiv_id"] != "":
+                    arxiv_id = dados["arxiv_id"]
+                if dados["publication"] != "":
+                    data = datetime.datetime.strptime(dados["publication"], "%Y-%m-%d")
+                summary = dados["summary"]
+            except:
+                print("sem dados extraidos para o paper")
+
+        p = Paper(nome, arxiv_id, data, summary)
 
         tipo1 = row.classe_1
         tipo2 = row.classe_2
