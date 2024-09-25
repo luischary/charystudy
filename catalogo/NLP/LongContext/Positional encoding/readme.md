@@ -2,7 +2,7 @@
 
 
 ### 2023 Effective Long-Context Scaling of Foundation Models(1)
-- **https://arxiv.org/pdf/2307.11088**
+- **https://arxiv.org/pdf/**
 ### 2023 YaRN_ Efficient Context Window Extension of Large_Language Models
 - **https://arxiv.org/pdf/**
 ### 2022  A length-extrapolatable transformer

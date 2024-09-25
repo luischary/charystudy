@@ -4,11 +4,11 @@
 ### 2011 The kaldi speech recognition_toolkit
 - **https://arxiv.org/pdf/**
 ### 2023 Seamless
-- **https://arxiv.org/pdf/2106.01045**
+- **https://arxiv.org/pdf/**
 ### 2023 VoiceBox
-- **https://arxiv.org/pdf/1809.11096**
+- **https://arxiv.org/pdf/**
 ### 2023 Voicebox(1)
-- **https://arxiv.org/pdf/1809.11096**
+- **https://arxiv.org/pdf/**
 ### Automatic Speech Recognition_ A Deep Learning_Approach
 - **https://arxiv.org/pdf/**
 ### MFA_paper_Interspeech2017
@@ -16,9 +16,9 @@
 ### Theory and Applications of Digital Speech_Processing
 - **https://arxiv.org/pdf/**
 ### Voicebox
-- **https://arxiv.org/pdf/1809.11096**
+- **https://arxiv.org/pdf/**
 ### whisper
-- **https://arxiv.org/pdf/1512.02595**
+- **https://arxiv.org/pdf/**
 ### Attention-Based Models for Speech Recognition
 - **2015-06-24**
 - https://arxiv.org/pdf/1506.07503

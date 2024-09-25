@@ -2,7 +2,7 @@
 
 
 ### 2024 Yuan 2.0-M32
-- **https://arxiv.org/pdf/2211.12588**
+- **https://arxiv.org/pdf/**
 ### 2023 Mixture-of-Experts Meets Instruction Tuning
 - **2023-05-07**
 - https://arxiv.org/pdf/2305.14705

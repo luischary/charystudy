@@ -2,13 +2,13 @@
 
 
 ### 2024 META Imagine Flash
-- **https://arxiv.org/pdf/2303.08797**
+- **https://arxiv.org/pdf/**
 ### ImagenVideo
-- **https://arxiv.org/pdf/2110.01963**
+- **https://arxiv.org/pdf/**
 ### RePaint
-- **https://arxiv.org/pdf/1809.11096**
+- **https://arxiv.org/pdf/**
 ### Resolution-robust large mask inpainting with_fourier convolutions
-- **https://arxiv.org/pdf/2010.11929**
+- **https://arxiv.org/pdf/**
 ### PixelCNN++
 - **2017-01-19**
 - https://arxiv.org/pdf/1701.05517

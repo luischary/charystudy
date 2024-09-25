@@ -73,6 +73,7 @@ def extrai_dados_basicos(pdf_path):
     textos_paginas = []
     for pagina in doc:
         textos_paginas.append(pagina.get_text())
+        break
 
     dados = {}
     dados["name"] = Path(pdf_path).stem

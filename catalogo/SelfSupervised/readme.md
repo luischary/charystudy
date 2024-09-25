@@ -2,7 +2,7 @@
 
 
 ### Efficient Self-supervised Learning with Contextualized Target Representations_for Vision, Speech and Language
-- **https://arxiv.org/pdf/1907.11692**
+- **https://arxiv.org/pdf/**
 ### LARS
 - **2017-09-13**
 - https://arxiv.org/pdf/1708.03888

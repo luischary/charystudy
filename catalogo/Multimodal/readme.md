@@ -2,7 +2,7 @@
 
 
 ### improved_llava
-- **https://arxiv.org/pdf/2204.14198**
+- **https://arxiv.org/pdf/**
 ### 2023 LLAVA
 - **2023-04-17**
 - https://arxiv.org/pdf/2304.08485

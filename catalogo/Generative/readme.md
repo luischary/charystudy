@@ -2,11 +2,11 @@
 
 
 ### 2023 gigaGAN
-- **https://arxiv.org/pdf/2211.01324**
+- **https://arxiv.org/pdf/**
 ### Learning Latent Subspaces in_Variational Autoencoder
-- **https://arxiv.org/pdf/1511.06349**
+- **https://arxiv.org/pdf/**
 ### Lydia_Reverse_Variational_Autoencoder_for_Visual_Attribute_Manipulation_and_Anomaly_Detection_WACV_2020_paper
-- **https://arxiv.org/pdf/1701.07875**
+- **https://arxiv.org/pdf/**
 ### Fader Networks_Manipulating Images by Sliding Attributes
 - **2018-01-28**
 - https://arxiv.org/pdf/1706.00409

@@ -2,25 +2,25 @@
 
 
 ### 2023 Gemini
-- **https://arxiv.org/pdf/2212.08073**
+- **https://arxiv.org/pdf/**
 ### 2023 LLAMA 2
-- **https://arxiv.org/pdf/2112.00861**
+- **https://arxiv.org/pdf/**
 ### 2024 Gemini 1_5
-- **https://arxiv.org/pdf/2303.09752**
+- **https://arxiv.org/pdf/**
 ### 2024 gemini_v1_5_report
-- **https://arxiv.org/pdf/2303.09752**
+- **https://arxiv.org/pdf/**
 ### 2024 gemma-report
-- **https://arxiv.org/pdf/2305.10403**
+- **https://arxiv.org/pdf/**
 ### 202407 LLAMA 3.1
-- **https://arxiv.org/pdf/2303.0954**
+- **https://arxiv.org/pdf/**
 ### GPT
-- **https://arxiv.org/pdf/1607.0645**
+- **https://arxiv.org/pdf/**
 ### GPT2
-- **https://arxiv.org/pdf/1808.04444**
+- **https://arxiv.org/pdf/**
 ### LLamA
-- **https://arxiv.org/pdf/2204.06745**
+- **https://arxiv.org/pdf/**
 ### gemma-2-report
-- **https://arxiv.org/pdf/2303.08774**
+- **https://arxiv.org/pdf/**
 ### BERT
 - **2019-05-24**
 - https://arxiv.org/pdf/1810.04805
