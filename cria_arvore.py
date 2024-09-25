@@ -11,7 +11,7 @@ def create_md_path(node_name: str, node_parents: list[str] = []):
         p = p / node_parents.pop(0)
 
     p = p / node_name
-    p = p / "main.md"
+    p = p / "readme.md"
     p.parent.mkdir(parents=True, exist_ok=True)
     return p
 
