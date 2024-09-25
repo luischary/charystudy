@@ -32,18 +32,6 @@ Voicebox is a groundbreaking text-guided generative model for speech that levera
 
 ---
 
-### Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale
-
-Voicebox is a groundbreaking text-guided generative model for speech that leverages over 50K hours of unfiltered audio data to perform various tasks such as zero-shot text-to-speech synthesis, noise removal, content editing, and style conversion. Unlike previous models, Voicebox is non-autoregressive and can utilize both past and future audio context, achieving state-of-the-art performance in multiple speech generation tasks. It outperforms existing models like VALL-E in intelligibility and audio similarity while being significantly faster. The model's architecture allows for flexible data usage without requiring explicit audio style labels, making it scalable and versatile for diverse applications in speech synthesis.
-
----
-
-### Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale
-
-Voicebox is a groundbreaking text-guided generative model for speech that leverages over 50K hours of unfiltered audio data to perform various tasks such as zero-shot text-to-speech synthesis, noise removal, content editing, and style conversion. Unlike previous models, Voicebox is non-autoregressive and can utilize both past and future audio context, achieving state-of-the-art performance in multiple speech generation tasks. It outperforms existing models like VALL-E in intelligibility and audio similarity while being significantly faster. The model's architecture allows for flexible data usage without requiring explicit audio style labels, making it scalable and versatile for diverse applications in speech synthesis.
-
----
-
 ### whisper
 
 ---

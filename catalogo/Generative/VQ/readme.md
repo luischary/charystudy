@@ -12,16 +12,6 @@ This paper introduces the Vector Quantised-Variational AutoEncoder (VQ-VAE), a g
 
 ---
 
-### Taming Transformers for High-Resolution Image Synthesis
-
-**2021-06-23**
-
-https://arxiv.org/pdf/2012.09841v3
-
-This paper presents a novel approach to high-resolution image synthesis by combining convolutional neural networks (CNNs) and transformers. The authors propose a two-stage model where CNNs learn a context-rich codebook of image constituents, which are then composed using transformers to capture long-range interactions. This method allows for efficient modeling of high-resolution images, achieving state-of-the-art results in class-conditional image synthesis on ImageNet. The approach retains the advantages of transformers while leveraging the inductive biases of CNNs, enabling the generation of megapixel images and demonstrating versatility across various synthesis tasks.
-
----
-
 ### UWA-LIP: Language Guided Image Inpainting with Defect-free VQGAN
 
 **2022-02-10**

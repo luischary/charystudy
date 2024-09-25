@@ -22,16 +22,6 @@ This paper presents a novel multi-hop dense retrieval approach for open-domain q
 
 ---
 
-### ANSWERING COMPLEX OPEN-DOMAIN QUESTIONS WITH MULTI-HOP DENSE RETRIEVAL
-
-**2021-05-19**
-
-https://arxiv.org/pdf/2009.12756
-
-This paper presents a novel multi-hop dense retrieval approach for open-domain question answering, achieving state-of-the-art performance on the HotpotQA and multi-evidence FEVER datasets. Unlike previous methods, the proposed system does not rely on corpus-specific information such as hyperlinks or entity markers, making it applicable to any unstructured text corpus. The authors demonstrate that their method significantly improves the efficiency-accuracy trade-off, being ten times faster at inference while matching the best accuracy on HotpotQA. The approach utilizes a recursive framework to iteratively retrieve relevant documents based on previously retrieved information, enhancing the retrieval of complex answers that require multi-hop reasoning.
-
----
-
 ### Knowledge Graph Prompting for Multi-Document Question Answering
 
 **2023-08-22**

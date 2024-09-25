@@ -38,16 +38,6 @@ This paper introduces Position Interpolation (PI), a method to extend the contex
 
 ---
 
-### EXTENDING CONTEXT WINDOW OF LARGE LANGUAGE MODELS VIA POSITION INTERPOLATION
-
-**2023-06-28**
-
-https://arxiv.org/pdf/arXiv:2306.15595v2
-
-This paper introduces Position Interpolation (PI), a method to extend the context window sizes of RoPE-based pretrained large language models (LLMs) like LLaMA from 2048 to 32768 tokens with minimal fine-tuning. The authors demonstrate that PI effectively preserves model quality on tasks within the original context window while significantly improving performance on tasks requiring longer contexts, such as language modeling and document summarization. The method down-scales input position indices to match the original context window, avoiding the pitfalls of extrapolation that can lead to high attention scores and instability. Empirical results show that models extended via PI require only 1000 fine-tuning steps to adapt, achieving notable perplexity gains and maintaining competitive performance on standard benchmarks.
-
----
-
 ### YaRN: Efficient Context Window Extension of Large Language Models
 
 **2023-08-31**
@@ -75,16 +65,6 @@ This paper introduces FIRE (Functional Interpolation for Relative Positional Enc
 https://arxiv.org/pdf/2309.16039v2
 
 This paper presents a series of long-context large language models (LLMs) that effectively handle context windows of up to 32,768 tokens. The models are built through continual pretraining from LLAMA 2 with longer training sequences and a dataset emphasizing long texts. The authors demonstrate significant improvements in both long-context and standard short-context tasks compared to LLAMA 2, with the 70B variant outperforming gpt-3.5-turbo-16k on various benchmarks. Key contributions include a novel positional encoding modification to enhance long-context modeling, an efficient continual pretraining approach, and a cost-effective instruction tuning method that does not rely on human-annotated long instruction data. The paper also provides extensive evaluations and analyses of the models' performance across multiple tasks, highlighting the importance of context length in scaling LLMs.
-
----
-
-### Transformers Can Achieve Length Generalization But Not Robustly
-
-**2024-02-14**
-
-https://arxiv.org/pdf/2402.09371v1
-
-This paper investigates the length generalization capabilities of Transformers, specifically in the context of adding two integers. The authors demonstrate that Transformers can extrapolate to sequences 2.5 times longer than those seen during training, achieving over 98% accuracy with the right combination of position encoding and data format. Key contributions include identifying the critical role of position encoding and data formatting in length generalization, revealing the fragility of this generalization influenced by factors like weight initialization and training data order, and providing a systematic evaluation of various position encodings and data formats. Despite achieving significant results, the authors note that robust length generalization remains a challenge.
 
 ---
 

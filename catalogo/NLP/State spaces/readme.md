@@ -57,13 +57,3 @@ https://arxiv.org/pdf/2312.00752
 https://arxiv.org/pdf/2405.2106
 
 ---
-
-### SAMBA: Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling
-
-**2024-06-11**
-
-https://arxiv.org/pdf/2406.07522v1
-
-The paper introduces SAMBA, a hybrid architecture that combines Mamba, a selective State Space Model (SSM), with Sliding Window Attention (SWA) to efficiently model sequences with unlimited context length. SAMBA achieves linear computation complexity, allowing it to extrapolate from 4K to 256K context lengths while maintaining high memory recall and improved token predictions. The authors demonstrate that SAMBA outperforms state-of-the-art models in various benchmarks, achieving significant speedups in processing and decoding throughput. The architecture's design harmonizes the strengths of SSMs and attention mechanisms, leading to superior performance in commonsense reasoning, language understanding, and coding tasks.
-
----

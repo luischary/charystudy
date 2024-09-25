@@ -26,16 +26,6 @@ This paper introduces PaLI-3, a vision language model (VLM) that is smaller (5B 
 
 ---
 
-### PALI-3 VISION LANGUAGE MODELS: SMALLER, FASTER, STRONGER
-
-**2023-10-17**
-
-https://arxiv.org/pdf/2310.09199
-
-This paper introduces PaLI-3, a vision language model (VLM) that is smaller (5B parameters), faster, and stronger than existing models, achieving state-of-the-art (SOTA) performance on various benchmarks while being 10x smaller than the largest models. The authors compare classification-pretrained Vision Transformer (ViT) models with contrastively pretrained models (SigLIP), finding that the latter significantly outperforms the former in visually-situated text understanding and localization tasks. PaLI-3 sets new SOTA results on over ten diverse VLM benchmarks and demonstrates strong generalization capabilities, even achieving SOTA on video QA tasks without pretraining on video data. The model's architecture combines a contrastively pretrained image encoder with a 3B parameter UL2 language model, and the training process includes multiple stages, focusing on multimodal training and resolution increases. The findings suggest that contrastive pretraining is a more effective approach for VLMs, particularly for tasks requiring detailed visual understanding.
-
----
-
 ### Chameleon: Mixed-Modal Early-Fusion Foundation Models
 
 **2024-05-17**

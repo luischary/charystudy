@@ -18,14 +18,6 @@ https://arxiv.org/pdf/2306.01116
 
 ---
 
-### 2023 The RefinedWeb Dataset for Falcon LLM
-
-**2023-01-06**
-
-https://arxiv.org/pdf/2306.01116
-
----
-
 ### EXPERTQA: Expert-Curated Questions and Attributed Answers
 
 **2023-09-14**

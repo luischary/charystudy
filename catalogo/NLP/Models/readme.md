@@ -34,12 +34,6 @@ The paper introduces LLaMA, a series of foundation language models ranging from 
 
 ---
 
-### Language Models are Unsupervised Multitask Learners
-
-This paper demonstrates that large language models, specifically GPT-2, can perform various natural language processing tasks in a zero-shot setting without explicit supervision. Trained on a diverse dataset called WebText, GPT-2 achieves competitive performance on tasks like reading comprehension, translation, and summarization, often surpassing baseline systems. The authors argue that the model's capacity is crucial for successful task transfer and that it learns to perform tasks from natural language sequences. The findings suggest a promising direction for developing general-purpose language processing systems that can learn from unstructured data.
-
----
-
 ### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 
 **2019-05-24**
@@ -47,16 +41,6 @@ This paper demonstrates that large language models, specifically GPT-2, can perf
 https://arxiv.org/pdf/1810.04805
 
 The paper introduces BERT (Bidirectional Encoder Representations from Transformers), a novel language representation model that pre-trains deep bidirectional representations from unlabeled text. BERT utilizes a masked language model (MLM) and next sentence prediction (NSP) tasks to jointly condition on both left and right context, significantly improving performance on various NLP tasks. The authors demonstrate that BERT achieves state-of-the-art results on eleven benchmarks, including GLUE and SQuAD, outperforming previous models by substantial margins. The study emphasizes the importance of bidirectional pre-training and shows that BERT's architecture reduces the need for complex task-specific modifications, making it a powerful tool for a wide range of language understanding tasks.
-
----
-
-### RoBERTa: A Robustly Optimized BERT Pretraining Approach
-
-**2019-07-26**
-
-https://arxiv.org/pdf/1907.11692v1
-
-This paper presents RoBERTa, an improved version of BERT, through a comprehensive replication study that evaluates the impact of various hyperparameters and training data size on model performance. The authors find that BERT was significantly undertrained and propose several modifications to the training process, including longer training duration, larger batch sizes, removal of the next sentence prediction objective, and dynamic masking of input data. RoBERTa achieves state-of-the-art results on multiple benchmarks, including GLUE, RACE, and SQuAD, demonstrating the importance of design choices in pretraining language models. The authors also introduce a new dataset, CC-NEWS, and release their models and code for further research.
 
 ---
 
@@ -135,16 +119,6 @@ https://arxiv.org/pdf/2306.02707
 **2023-08-25**
 
 https://arxiv.org/pdf/2308.1295
-
----
-
-### Textbooks Are All You Need II: phi-1.5 technical report
-
-**2023-09-11**
-
-https://arxiv.org/pdf/2309.05463
-
-This technical report presents phi-1.5, a 1.3 billion parameter Transformer-based language model that demonstrates performance on common sense reasoning and natural language tasks comparable to models five times its size. The authors emphasize the importance of high-quality, synthetic 'textbook-like' training data, which enhances the model's reasoning abilities while mitigating issues like hallucinations and biases. The report discusses the architecture, training data, and benchmarks, revealing that phi-1.5 outperforms existing models in multi-step reasoning tasks and exhibits traits of larger models. The authors aim to promote further research on LLMs by open-sourcing phi-1.5, highlighting its potential for efficient and sustainable AI development.
 
 ---
 

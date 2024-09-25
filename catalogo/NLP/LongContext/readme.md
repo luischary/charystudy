@@ -162,16 +162,6 @@ This paper introduces BABILong, a benchmark for evaluating the ability of NLP mo
 
 ---
 
-### In Search of Needles in a 10M Haystack: Recurrent Memory Finds What LLMs Miss
-
-**2024-02-16**
-
-https://arxiv.org/pdf/2402.10790
-
-This paper introduces BABILong, a benchmark for evaluating the ability of NLP models to process long documents with distributed facts. The authors demonstrate that traditional models like GPT-4 and RAG struggle with long contexts, effectively using only a fraction of their input capacity. In contrast, they show that fine-tuning GPT-2 with recurrent memory augmentations allows it to handle inputs of up to 10 million tokens, significantly outperforming existing models. The study highlights the effectiveness of recurrent memory in filtering irrelevant information and emphasizes the need for improved context processing mechanisms in large language models.
-
----
-
 ### In Search of Needles in a 11M Haystack: Recurrent Memory Finds What LLMs Miss
 
 **2024-02-21**

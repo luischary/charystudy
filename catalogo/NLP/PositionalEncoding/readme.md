@@ -22,16 +22,6 @@ This paper discusses the limitations of existing position embeddings in Transfor
 
 ---
 
-### Improve Transformer Models with Better Relative Position Embeddings
-
-**2020-09-28**
-
-https://arxiv.org/pdf/2009.13658
-
-This paper discusses the limitations of existing position embeddings in Transformer models, particularly focusing on the relative position embeddings. The authors propose new techniques that enhance the interaction between query, key, and relative position embeddings in the self-attention mechanism. They introduce four novel relative position embedding methods, demonstrating that their best method outperforms previous approaches on the SQuAD1.1 dataset. Additionally, the paper explores the inductive properties of these embeddings, showing that they can generalize well to longer sequences. The proposed methods serve as effective drop-in replacements for improving the performance of large models with minimal computational cost.
-
----
-
 ### TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION
 
 **2022-04-22**

@@ -42,16 +42,6 @@ This paper introduces a novel end-to-end text-to-speech (TTS) model that integra
 
 ---
 
-### Neural Speech Synthesis with Transformer Network
-
-**2019-01-30**
-
-https://arxiv.org/pdf/1809.08895v3
-
-This paper introduces a novel end-to-end text-to-speech (TTS) model that integrates the Transformer architecture with the Tacotron2 framework. The authors replace recurrent neural networks (RNNs) with a multi-head attention mechanism, enhancing training efficiency and effectively modeling long-range dependencies. The proposed Transformer TTS network generates mel spectrograms from phoneme sequences, which are then synthesized into audio using a WaveNet vocoder. Experimental results demonstrate that the new model is approximately 4.25 times faster in training compared to Tacotron2 and achieves state-of-the-art performance, closely matching human quality in audio synthesis. The study highlights the advantages of parallel processing and improved prosody in synthesized speech.
-
----
-
 ### HIGH FIDELITY SPEECH SYNTHESIS WITH ADVERSARIAL NETWORKS
 
 **2019-09-26**

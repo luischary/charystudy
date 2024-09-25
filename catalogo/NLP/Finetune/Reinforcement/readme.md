@@ -12,14 +12,6 @@ This paper presents a novel approach to reinforcement learning (RL) that utilize
 
 ---
 
-### Training language models to follow instructions with human feedback
-
-**2022-04-03**
-
-https://arxiv.org/pdf/2203.02155
-
----
-
 ### Reinforced Self-Training (ReST) for Language Modeling
 
 **2023-08-22**

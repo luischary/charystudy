@@ -146,9 +146,14 @@ def faz_nlp(root=Path("./Papers")):
     dados = dados[dados.classe_1 != ""].reset_index(drop=True)
     dados["arxiv_date"] = pd.to_datetime(dados["arxiv_date"])
     arvore = Arvore("raiz")
-
+    # para remover duplicidades
+    hashes_adicionados = set()
     for _, row in dados.iterrows():
         paper_hash = row.pdf_hash
+        if paper_hash in hashes_adicionados:
+            continue
+        else:
+            hashes_adicionados.add(paper_hash)
         extracted_path = Path(f"./dados_extraidos/{paper_hash}.json")
         nome = row.pdf_name
         arxiv_id = row.arxiv_id

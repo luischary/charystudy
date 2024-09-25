@@ -12,16 +12,6 @@ This paper introduces a linear transformer model that reduces the computational 
 
 ---
 
-### Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
-
-**2020-08-31**
-
-https://arxiv.org/pdf/2006.16236v3
-
-This paper introduces a linear transformer model that reduces the computational and memory complexity of traditional transformers from O(N²) to O(N), where N is the sequence length. By employing a kernel-based formulation of self-attention and utilizing the associative property of matrix products, the authors demonstrate that their linear transformers achieve comparable performance to standard transformers while being significantly faster—up to 4000 times faster during autoregressive inference. The paper also establishes a connection between transformers and recurrent neural networks (RNNs), allowing for efficient autoregressive modeling. Experimental results on tasks such as image generation and automatic speech recognition validate the effectiveness of the proposed model.
-
----
-
 ### Flash Attention
 
 **2022-06-23**

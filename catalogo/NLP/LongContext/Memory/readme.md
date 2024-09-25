@@ -42,16 +42,6 @@ This paper presents the Associative Recurrent Memory Transformer (ARMT), a neura
 
 ---
 
-### Associative Recurrent Memory Transformer
-
-**2024-07-05**
-
-https://arxiv.org/pdf/2407.04841v1
-
-This paper presents the Associative Recurrent Memory Transformer (ARMT), a neural architecture designed for processing very long sequences with constant time complexity. ARMT combines transformer self-attention for local context with segment-level recurrence for long-term memory, outperforming existing models in associative retrieval tasks and achieving a new accuracy record of 79.9% on the BABILong multi-task benchmark with inputs of up to 50 million tokens. Key contributions include the introduction of a novel architecture that enhances memory capacity and generalization, as well as an original evaluation method for memory in associative retrieval tasks. The authors demonstrate that ARMT significantly surpasses previous models like RMT and Mamba in both memory efficiency and long-context processing capabilities.
-
----
-
 ### HUMAN-LIKE EPISODIC MEMORY FOR INFINITE CONTEXT LLMS
 
 **2024-07-12**

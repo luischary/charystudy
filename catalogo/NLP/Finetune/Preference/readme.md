@@ -12,16 +12,6 @@ This paper introduces Direct Preference Optimization (DPO), a novel algorithm fo
 
 ---
 
-### Direct Preference Optimization: Your Language Model is Secretly a Reward Model
-
-**2023-05-29**
-
-https://arxiv.org/pdf/2305.18290
-
-This paper introduces Direct Preference Optimization (DPO), a novel algorithm for fine-tuning large unsupervised language models (LMs) to align with human preferences without the complexities of reinforcement learning from human feedback (RLHF). DPO simplifies the training process by directly optimizing the policy based on human preference data, effectively solving a classification problem rather than fitting a reward model. The authors demonstrate that DPO achieves performance comparable to or better than existing RLHF methods, particularly in tasks like sentiment modulation, summarization, and dialogue, while being more stable and computationally efficient. The study highlights the importance of controlling model behavior to ensure safe and effective AI systems.
-
----
-
 ### ORPO: Monolithic Preference Optimization without Reference Model
 
 **2024-03-14**

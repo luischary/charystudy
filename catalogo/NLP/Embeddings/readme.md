@@ -2,16 +2,6 @@
 
 
 
-### Efficient Natural Language Response Suggestion for Smart Reply
-
-**2017-05-01**
-
-https://arxiv.org/pdf/1705.00652v1
-
-This paper presents a computationally efficient method for natural language response suggestion using feed-forward neural networks with n-gram embeddings. The approach encodes messages into vectors optimized for high dot-product values with response pairs, enabling effective response suggestions in Gmail's Smart Reply feature. Compared to traditional sequence-to-sequence models, this method achieves similar quality with significantly reduced computational requirements and latency. The authors discuss the transition from rule-based systems to data-driven models, the challenges of end-to-end dialog systems, and the implementation of a hierarchical structure for efficient response selection. The system was evaluated using anonymized Gmail data, demonstrating improvements in suggestion quality and user engagement.
-
----
-
 ### Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks
 
 **2019-08-27**
