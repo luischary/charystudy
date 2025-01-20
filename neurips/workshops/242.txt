@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main topic of the paper, which is the investigation of how Transformers with causal attention can represent positional information without explicit positional encodings.
+  
+2. **Main contributions**: Highlight the key findings and contributions of the paper, such as the identification of the adjacency pattern in token embeddings and the introduction of the adjacency probability score.
+
+3. **Proposed technique**: Describe the methodology used to analyze the self-cosine-similarity matrix and how it relates to the adjacency pattern in embeddings.
+
+4. **Main results**: Summarize the experimental results, including the performance of the models on various tasks and the observed adjacency patterns.
+
+5. **Applications or possible practical applications**: Discuss potential applications of the findings in improving Transformer architectures or in tasks requiring positional information.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on Transformers and their ability to handle positional information, which falls under **NLP** (Natural Language Processing).
+
+2. **Type of model employed**: The primary model discussed is the **transformer**, specifically a variant with causal attention.
+
+3. **Type of application**: The paper primarily deals with **classification models**, as it evaluates the performance of the Transformer on tasks that require understanding of token positions.
+
+### Grade Justification
+
+The paper presents a novel approach to understanding how Transformers can infer positional information without explicit encodings, demonstrating good experimental results across multiple tasks. However, while the findings are significant, they may require specialized knowledge to fully implement and replicate the results. Therefore, I would assign a grade of **4**: "The paper has practical application and good results were proved, but it is necessary very specialized hardware (e.g., clusters of GPUs) or software (custom kernels or libs) to be replicated."
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper investigates how Transformers with causal attention can represent positional information without using explicit positional encodings. The authors propose that nearby token embeddings exhibit higher cosine similarity, allowing the model to infer positional information. They introduce the adjacency probability score as a metric to quantify this phenomenon and demonstrate its presence in both trained and randomly initialized models across various tasks. Experimental results show that the adjacency pattern is robust across different configurations, indicating that causal attention can effectively encode positional information. The findings suggest potential improvements in Transformer architectures and applications in tasks requiring positional awareness.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "classification model",
+    "grade": "4"
+}
+```

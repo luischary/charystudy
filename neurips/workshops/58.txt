@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the development of a multi-lingual audio deepfake detection corpus (MLADDC) to address limitations in existing datasets.
+  
+2. **Main contributions**: Highlight the key contributions, including the size of the dataset, the number of languages covered, and the introduction of half-truth audio data.
+
+3. **Proposed technique**: Describe the techniques used for generating deepfake audio, specifically HiFiGAN and BigVGAN, and the rationale behind their selection.
+
+4. **Main results**: Summarize the experimental results, including baseline accuracy and equal error rates (EER) achieved with the proposed dataset.
+
+5. **Applications or possible practical applications**: Discuss potential applications of the dataset in audio deepfake detection and the implications for future research.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on audio deepfake detection, which falls under the category of "audio processing." It specifically addresses the challenges of detecting deepfake audio across multiple languages.
+
+2. **Type of model employed**: The paper employs Generative Adversarial Networks (GANs) for generating deepfake audio, specifically HiFiGAN and BigVGAN, which are advanced deep learning models.
+
+3. **Type of application**: The primary application of the proposed work is as a "generative model," as it involves the generation of synthetic audio data for the purpose of training detection systems.
+
+### Grade Justification
+
+The paper presents a novel dataset that is significant in size and scope, addressing a critical gap in the field of audio deepfake detection. The results indicate a baseline accuracy of 68.44% and an EER of 40.9%, which are promising but suggest that further improvements are needed. The dataset is publicly available, making it accessible for other researchers. However, the reliance on advanced models like HiFiGAN and BigVGAN may require specialized hardware for optimal performance. Therefore, I would assign a grade of **4**: the paper has practical applications and good results were proved, but it is necessary to have specialized hardware or software to replicate the findings.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper presents the Multi-Lingual Audio Deepfake Detection Corpus (MLADDC), aimed at enhancing audio deepfake detection research by providing a dataset that includes 20 languages and over 1,125 hours of audio data. The dataset addresses limitations of existing datasets, which are often restricted to one or two languages. Key contributions include the introduction of half-truth audio data and the use of advanced deep learning techniques, specifically HiFiGAN and BigVGAN, for generating deepfake audio. Experimental results show a baseline accuracy of 68.44% and an equal error rate (EER) of 40.9% when using MFCC features and a CNN classifier. The dataset has significant potential applications in audio deepfake detection and could serve as a benchmark for future research in this area.",
+    "macrotopic": "audio processing",
+    "model": "GAN",
+    "application": "generative model",
+    "grade": "4"
+}
+```

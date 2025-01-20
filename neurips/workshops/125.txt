@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the development of a Multimodal Large Language Model (MLLM) specifically designed for understanding scientific charts. Mention the gap in existing models regarding chart comprehension and the proposed solution.
+
+2. **Main contributions**: Highlight the key contributions of the paper, including the introduction of CHOPINLLM, the novel data generation pipeline, and the establishment of a new benchmark for evaluating MLLMs in chart understanding.
+
+3. **Proposed technique**: Describe the training methodology for CHOPINLLM, including the three-stage training process that incorporates raw data extraction, visual-language alignment, and end-to-end fine-tuning.
+
+4. **Main results**: Summarize the experimental results that demonstrate the effectiveness of CHOPINLLM compared to existing models, particularly in understanding both annotated and unannotated charts.
+
+5. **Applications or possible practical applications**: Discuss potential applications of CHOPINLLM in fields that rely on data visualization, such as scientific research, business analytics, and education.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on the intersection of language and visual data, specifically in the context of chart understanding, which falls under **NLP** (Natural Language Processing) as it involves language models and comprehension tasks.
+
+2. **Type of model employed**: The model is a **transformer** architecture, as it builds upon existing MLLMs and utilizes transformer-based techniques for processing visual and textual data.
+
+3. **Type of application**: The primary application of the model is as a **classification model**, as it is designed to classify and interpret data from various types of charts and answer questions based on that data.
+
+### Grade Justification
+
+The paper presents a novel approach to chart understanding using MLLMs, demonstrating significant improvements over existing models. The results are robust and validated across multiple benchmarks, indicating practical applications in various fields. However, the implementation may require specialized knowledge and resources to replicate fully. Therefore, I would assign a grade of **4**: "The paper has practical application and good results were proved, but it is necessary very specialized hardware (eg. clusters of gpus) or software (custom kernels or libs) to be replicated."
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper presents CHOPINLLM, a Multimodal Large Language Model specifically designed for understanding scientific charts. It addresses the limitations of existing models in extracting numeric values from charts by proposing a tailored training methodology that includes raw data extraction and visual-language alignment. The authors introduce a novel data generation pipeline and establish a new benchmark for evaluating MLLMs in chart comprehension. Experimental results show that CHOPINLLM outperforms previous models in understanding both annotated and unannotated charts, demonstrating its effectiveness across various comprehension levels. The model has potential applications in scientific research, business analytics, and education, where accurate data interpretation from visualizations is crucial.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "classification model",
+    "grade": "4"
+}
+```

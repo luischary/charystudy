@@ -1,0 +1,12 @@
+{
+   "titulo": "RHO-1: Not All Tokens Are What You Need",
+   "publicacao": "🔍 Descubra como o RHO-1 está revolucionando o treinamento de modelos de linguagem! \n\n📚 Você sabia que nem todas as palavras são igualmente importantes para treinar modelos de linguagem? O RHO-1 está aqui para mudar isso, focando apenas nas palavras que realmente importam! \n\n🛠️ O RHO-1 utiliza o Selective Language Modeling (SLM), que treina modelos de linguagem focando em tokens úteis, avaliados por um modelo de referência. Isso melhora a eficiência e o desempenho do treinamento. \n\n🚀 Com o RHO-1, alcançamos uma melhoria de até 30% na precisão em tarefas matemáticas, usando apenas 3% dos tokens de pré-treinamento comparado a outros modelos. \n\n👉 Quer saber mais sobre como o RHO-1 pode transformar o aprendizado de máquina? Fique ligado e compartilhe suas ideias nos comentários! \n\n#MachineLearning #DataScience #AI #LanguageModels",
+   "chamadas_post": [
+      "Olha só essa novidade em modelos de linguagem!",
+      "Mais um grande avanço em inteligência artificial!",
+      "Descubra como o RHO-1 está mudando o jogo!",
+      "Quer saber como melhorar a eficiência dos modelos de linguagem? Confira!",
+      "RHO-1: O futuro do treinamento de modelos de linguagem está aqui!"
+   ],
+   "paper": "https://arxiv.org/abs/2404.07965"
+}

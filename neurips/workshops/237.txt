@@ -1,0 +1,7 @@
+{
+    "summary": "The paper presents a novel method called Latent Concept Attribution (LACOAT) aimed at improving the interpretability of predictions made by deep learning models in natural language processing (NLP). Traditional methods often rely on input features, such as words, which can lead to less informative explanations due to their discrete nature. LACOAT addresses this by generating explanations based on latent concepts derived from the model's training data. The method consists of four modules: ConceptDiscoverer, PredictionAttributor, ConceptMapper, and PlausiFyer, which work together to identify salient input representations, map them to latent concepts, and generate human-friendly explanations. The authors demonstrate the effectiveness of LACOAT through qualitative evaluations across various NLP tasks, including sentiment classification, toxicity classification, and natural language inference.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "explanation model",
+    "grade": "4"
+}

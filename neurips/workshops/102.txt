@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the SelfPrompt method for tuning vision-language models (VLMs) in a semi-supervised learning context.
+2. **Main contributions**: Highlight the three key innovations introduced by the authors to improve VLM performance: weakly-supervised sampling, cluster-guided pseudo-labelling, and confidence-aware semi-supervised learning.
+3. **Proposed technique**: Describe how SelfPrompt works, including its components and the rationale behind each.
+4. **Main results**: Summarize the performance improvements achieved by SelfPrompt over existing methods, including specific metrics and datasets used.
+5. **Applications or possible practical applications**: Discuss potential real-world applications of the proposed method, especially in scenarios with limited labeled data.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on vision-language models, which falls under the category of NLP as it deals with language processing in conjunction with visual data.
+2. **Type of model employed**: The proposed method utilizes a transformer-based architecture, which is common in vision-language models.
+3. **Type of application**: The SelfPrompt method is primarily a generative model as it generates pseudo-labels for unlabelled data to enhance learning.
+
+### Grade Justification
+
+The paper presents a novel approach with practical applications, demonstrating significant improvements over state-of-the-art methods across multiple datasets. The results are robust, showing that the technique can generalize well even with minimal labeled data. However, the implementation may require some specialized knowledge to replicate effectively, which leads to a grade of 4.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper presents SelfPrompt, a novel semi-supervised prompt-tuning approach for vision-language models (VLMs) that addresses challenges in utilizing limited labeled data effectively. The authors introduce three key innovations: a weakly-supervised sampling technique to select a diverse and representative labeled set, a cluster-guided pseudo-labelling method to enhance pseudo-label accuracy, and a confidence-aware semi-supervised learning module that optimally utilizes unlabelled data. Extensive evaluations across 13 datasets demonstrate that SelfPrompt significantly outperforms state-of-the-art methods, achieving an average improvement of 7.92% in semi-supervised learning with just two labeled samples per class. The proposed method shows promise for practical applications in scenarios with limited labeled data, such as in medical imaging or environmental monitoring, where acquiring labeled data is costly or time-consuming.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

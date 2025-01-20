@@ -1,0 +1,31 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the concept of machine unlearning and the challenges faced by existing methods, leading to the proposal of NegMerge.
+2. **Main contributions**: Highlight the key advancements made by the authors, particularly the introduction of a new method that improves unlearning performance.
+3. **Proposed technique**: Describe the NegMerge technique, focusing on how it utilizes multiple fine-tuned models to create a more effective task vector for unlearning.
+4. **Main results**: Summarize the experimental results, emphasizing the performance improvements over existing methods in various scenarios.
+5. **Applications or possible practical applications**: Discuss the implications of the research in real-world applications, particularly in privacy-sensitive areas.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper deals with machine unlearning, which is a subfield of machine learning focused on the ability to remove specific knowledge from models. This fits best under "others" since it doesn't strictly fall into traditional categories like NLP or image processing.
+   
+2. **Type of model employed**: The proposed method builds upon existing techniques like task arithmetic and model merging, which are generally applicable to deep learning models. Thus, "general (deep learning)" is the most fitting classification.
+
+3. **Type of application**: The primary focus of the paper is on machine unlearning, which is a specialized application of machine learning techniques. Therefore, "optimizer" is the most appropriate classification, as the method optimizes the unlearning process.
+
+### Grade Justification
+
+The paper presents a novel approach to machine unlearning that shows significant improvements over existing methods, achieving state-of-the-art results across multiple datasets. The authors provide thorough experimental validation, demonstrating practical applications in privacy-sensitive contexts. The method does not require specialized hardware or software, making it relatively easy for others to replicate. Therefore, I would assign a grade of **5**.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper introduces NegMerge, a novel method for machine unlearning that addresses the limitations of existing techniques, particularly task arithmetic. Current methods struggle with hyperparameter sensitivity and often require careful validation to achieve effective unlearning. NegMerge improves upon this by leveraging multiple fine-tuned models to create a more effective task vector for unlearning, merging only the components with consistent signs. Experimental results demonstrate that NegMerge outperforms state-of-the-art techniques in both vision-language models and standard image classification tasks, achieving minimal degradation on the retain set. The proposed technique has practical applications in privacy-sensitive areas, allowing for the selective removal of knowledge from models without extensive retraining.",
+    "macrotopic": "others",
+    "model": "general (deep learning)",
+    "application": "optimizer",
+    "grade": "5"
+}
+```

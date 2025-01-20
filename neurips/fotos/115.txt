@@ -1,0 +1,7 @@
+{
+    "summary": "This paper investigates the concept of 'radioactivity' in large language models (LLMs), specifically focusing on the detection of synthetic data used in training subsequent models. The authors propose novel methods to reliably identify whether a language model was fine-tuned on outputs from a watermarked LLM, demonstrating that even a small proportion of watermarked data can be detected with high confidence. The study introduces statistical tests tailored for different scenarios of model access and training data knowledge, revealing that radioactivity detection is feasible in both supervised and unsupervised settings. The findings highlight the implications of watermarking for intellectual property protection and the transparency of generative models in AI regulations.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "detection model",
+    "grade": "5"
+}

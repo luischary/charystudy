@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of Fine-Grained Visual Recognition (FGVR) and the challenges it faces, particularly the need for large annotated datasets. Mention the role of Multimodal Large Language Models (MLLMs) in addressing these challenges.
+  
+2. **Main contributions**: Highlight the novel pipeline proposed by the authors, which includes using MLLMs to generate weak labels for a small support set of images and fine-tuning a CLIP model with these labels.
+
+3. **Proposed technique**: Describe the methodology, including the steps of querying MLLMs for labels, constructing candidate sets to mitigate noise, and employing a partial label learning algorithm for fine-tuning.
+
+4. **Main results**: Summarize the performance improvements achieved by the proposed method compared to existing approaches, emphasizing the efficiency in terms of cost and time.
+
+5. **Applications or possible practical applications**: Discuss potential applications in fields requiring fine-grained classification, such as medical diagnosis and biodiversity studies.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on Fine-Grained Visual Recognition, which falls under the broader category of computer vision and machine learning, specifically related to image processing.
+
+2. **Type of model employed**: The paper employs a CLIP model, which is a type of transformer model designed for multimodal tasks, making it suitable for the proposed technique.
+
+3. **Type of application**: The application is primarily a classification model, as it aims to classify images into fine-grained categories.
+
+### Summary and Classification
+
+```json
+{
+    "summary": "This paper addresses the challenges of Fine-Grained Visual Recognition (FGVR), which involves distinguishing between visually similar categories and often requires large, expert-annotated datasets. The authors propose a novel pipeline that fine-tunes a CLIP model for FGVR by leveraging Multimodal Large Language Models (MLLMs) to generate weak labels from a small support set of unlabeled images. To mitigate the noise from these labels, they construct candidate sets using labels from similar images and employ a partial label learning algorithm for fine-tuning. The proposed method achieves performance comparable to querying MLLMs directly, but at only 1/100th of the inference cost and significantly reduced time. This approach has practical applications in areas requiring high specificity, such as medical diagnosis and biodiversity studies, where expert annotations are often unavailable.",
+    "macrotopic": "image processing",
+    "model": "transformer",
+    "application": "classification model",
+    "grade": "5"
+}
+```
+
+### Grade Justification
+
+I assigned a grade of 5 to this paper because it presents a practical application with good results that can be replicated by others without requiring specialized hardware or software. The proposed method is efficient and cost-effective, making it accessible for broader use in various domains that require fine-grained classification.

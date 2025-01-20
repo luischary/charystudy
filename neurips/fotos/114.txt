@@ -1,0 +1,7 @@
+{
+    "summary": "This paper presents a novel framework called Trace, which facilitates end-to-end generative optimization of computational workflows using large language models (LLMs). The authors introduce a new mathematical setup termed Optimization with Trace Oracle (OPTO), which allows for the optimization of workflows that involve heterogeneous parameters and rich feedback. The framework is implemented in a Python library, enabling users to optimize various tasks such as prompt optimization, hyper-parameter tuning, and robot controller design. The proposed technique, OptoPrime, leverages execution traces akin to back-propagated gradients in traditional optimization methods, allowing for efficient parameter updates based on feedback. Empirical results demonstrate that OptoPrime is competitive with specialized optimizers across multiple domains, showcasing its versatility and effectiveness in optimizing complex workflows. The authors envision Trace as a platform for developing interactive learning agents and generative optimizers, paving the way for future advancements in AI systems.",
+    "macrotopic": "optimization",
+    "model": "general (deep learning)",
+    "application": "optimizer",
+    "grade": "5"
+}

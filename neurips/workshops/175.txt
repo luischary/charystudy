@@ -1,0 +1,7 @@
+{
+    "summary": "The paper presents a novel approach to tensor attention training, addressing the computational challenges associated with higher-order transformers. The authors demonstrate that the backward gradient of tensor attention can be computed in almost linear time, significantly improving upon the traditional cubic time complexity. They provide a closed-form solution for the gradient and propose an efficient algorithm that utilizes polynomial approximation methods and tensor algebra techniques. The theoretical results establish the feasibility of efficient higher-order transformer training, paving the way for practical applications in multi-modal data processing.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "optimizer",
+    "grade": "5"
+}

@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of incorporating new information into deep learning systems and the challenges it poses, particularly in non-stationary environments. Mention the proposed solution, Dreaming Learning, which is inspired by the concept of the Adjacent Possible.
+
+2. **Main contributions**: Highlight the key contributions of the paper, including the introduction of the Dreaming Learning algorithm, its theoretical foundation, and its application to both Markov chains and language models.
+
+3. **Proposed technique**: Describe the Dreaming Learning algorithm, emphasizing its two-phase training process, the use of Gibbs sampling, and the role of the sampling temperature in exploring new data spaces.
+
+4. **Main results**: Summarize the experimental results, including improvements in loss convergence and the quality of generated sequences, particularly in the context of non-stationary data.
+
+5. **Applications or possible practical applications**: Discuss the potential applications of Dreaming Learning in various domains, such as natural language processing, time series analysis, and any other relevant fields.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper primarily deals with deep learning techniques and their application to non-stationary data, which falls under the category of **NLP** (Natural Language Processing) due to its focus on language models.
+
+2. **Type of model employed**: The paper employs a **recurrent network** (specifically LSTM) as part of the Dreaming Learning algorithm, which is suitable for handling sequential data.
+
+3. **Type of application**: The Dreaming Learning algorithm is primarily a **generative model**, as it generates synthetic sequences to enhance training.
+
+### Grade Justification
+
+The paper presents a novel approach with practical applications in handling non-stationary data, demonstrating significant improvements in training and validation losses. The results are compelling, and while the technique may require some specialized understanding of the underlying concepts, it does not necessitate highly specialized hardware or software. Therefore, I would assign a grade of **4**. 
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper addresses the challenge of incorporating new information into deep learning systems, particularly in non-stationary environments, by proposing a novel training algorithm called Dreaming Learning. This algorithm is inspired by Stuart Kauffman's concept of the Adjacent Possible and aims to enhance the adaptability of neural networks to new data sequences with different statistical properties. The main contributions include the introduction of the Dreaming Learning algorithm, its theoretical underpinnings, and its application to both Markov chains and language models. The proposed technique involves a two-phase training process where the network first learns from standard data and then generates synthetic sequences using Gibbs sampling, modulated by a sampling temperature that controls exploration. Experimental results show that Dreaming Learning improves loss convergence speed by approximately 100% and enhances the auto-correlation of generated textual sequences by about 29%. The potential applications of this technique span various domains, including natural language processing and time series analysis, making it a valuable framework for training on evolving data sources.",
+    "macrotopic": "NLP",
+    "model": "recurrent networks",
+    "application": "generative model",
+    "grade": "4"
+}
+```

@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main question the paper addresses regarding reasoning capabilities of LLMs without prompting.
+2. **Main contributions**: Highlight the novel findings and the significance of the proposed CoT-decoding method.
+3. **Proposed technique**: Describe the CoT-decoding method and how it differs from traditional prompting techniques.
+4. **Main results**: Summarize the empirical findings and improvements in reasoning performance across various benchmarks.
+5. **Applications or possible practical applications**: Discuss potential uses of the technique in real-world scenarios or further research.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on enhancing reasoning capabilities in large language models, which falls under the category of **NLP** (Natural Language Processing).
+2. **Type of model employed**: The paper primarily discusses the use of **transformer** models, specifically large language models like PaLM-2 and Mistral-7B.
+3. **Type of application**: The proposed method is primarily a **generative model** as it generates reasoning paths and answers based on the decoding process.
+
+### Grade Justification
+
+The paper presents a novel approach to eliciting reasoning capabilities from LLMs without the need for prompting, demonstrating significant improvements in performance across various reasoning tasks. The results are robust and show that the method can be applied to different models and tasks, making it relatively easy for others to replicate. Therefore, I would assign a grade of **5** as it has practical applications, good results, and the methodology is accessible for further exploration by other researchers.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper investigates whether large language models (LLMs) can effectively reason without the need for prompting techniques. The authors introduce a novel method called Chain-of-Thought (CoT) decoding, which alters the decoding process to elicit inherent reasoning paths from pre-trained LLMs. The findings reveal that by inspecting alternative top-k tokens during decoding, LLMs can demonstrate significant reasoning capabilities that are often obscured by traditional greedy decoding methods. Empirical studies show that CoT decoding leads to substantial improvements in reasoning accuracy across various benchmarks, indicating that LLMs possess intrinsic reasoning abilities. This technique has potential applications in enhancing the performance of LLMs in reasoning tasks without the need for extensive prompt engineering.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "5"
+}
+```

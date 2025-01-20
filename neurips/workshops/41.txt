@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main topic of the paper, which is the Multi-Scale Neural Audio Codec (SNAC) and its significance in audio compression.
+2. **Main contributions**: Highlight the key innovations and improvements over existing methods, particularly focusing on the multi-scale approach.
+3. **Proposed technique**: Describe the technical aspects of SNAC, including its architecture and how it implements multi-scale residual vector quantization.
+4. **Main results**: Summarize the findings from the experiments, including comparisons with existing codecs and the performance metrics achieved.
+5. **Applications or possible practical applications**: Discuss the potential uses of SNAC in real-world scenarios, such as in streaming services or low-bitrate audio transmission.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on audio processing, specifically on neural audio codecs, which is a subfield of audio processing.
+2. **Type of model employed**: The model employs a deep learning architecture, specifically a GAN-based approach with enhancements like depthwise convolutions and local windowed attention.
+3. **Type of application**: The primary application of the model is as a generative model for audio compression, aiming to produce high-quality audio at lower bitrates.
+
+### Grade Justification
+
+The paper presents a novel approach to audio compression that shows significant improvements over existing methods, achieving high-quality audio at lower bitrates. The results are validated through extensive objective and subjective evaluations, demonstrating practical applications in bandwidth-constrained environments. The open-sourcing of the code and models further enhances its accessibility for replication and use by others. Therefore, I would assign a grade of **4**. While the results are impressive and practical, the implementation may require specialized knowledge to replicate fully.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper introduces the Multi-Scale Neural Audio Codec (SNAC), an innovative extension of Residual Vector Quantization (RVQ) that enhances audio compression by utilizing quantizers operating at multiple temporal resolutions. This multi-scale approach allows the codec to adapt to the inherent structure of audio signals, leading to more efficient compression. The authors demonstrate that SNAC outperforms existing state-of-the-art codecs in both music and speech domains, achieving higher audio quality at lower bitrates through extensive objective and subjective evaluations. The proposed architecture incorporates enhancements such as noise blocks, depthwise convolutions, and local windowed attention, which contribute to its effectiveness. The results indicate that SNAC maintains audio quality even at bitrates below 1 kbit/s, making it particularly advantageous for applications where bandwidth is limited. The code and model weights are open-sourced, promoting further research and development in neural audio compression.",
+    "macrotopic": "audio processing",
+    "model": "deep learning",
+    "application": "generative model",
+    "grade": "4"
+}
+```

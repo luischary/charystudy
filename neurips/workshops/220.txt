@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the exploration of time-series foundation models (TSFMs) for probabilistic forecasting in building energy systems.
+  
+2. **Main contributions**: Highlight the key findings, such as the effectiveness of TSFMs in limited data scenarios and their generalization capabilities.
+
+3. **Proposed technique**: Describe the methodology used, including the fine-tuning of TSFMs and the comparison with traditional deep learning models.
+
+4. **Main results**: Summarize the performance metrics and how TSFMs outperformed traditional models in various scenarios.
+
+5. **Applications or possible practical applications**: Discuss the implications of the findings for real-world applications in energy systems and predictive maintenance.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on time-series forecasting, specifically in the context of building energy systems, which falls under the category of "others" since it doesn't strictly fit into the common categories like NLP or image processing.
+
+2. **Type of model employed**: The paper employs foundation models, which are a type of transformer architecture, thus classifying it as "transformer."
+
+3. **Type of application**: The primary goal of the paper is to improve forecasting accuracy, making it a "regression model" application.
+
+### Grade Justification
+
+The paper demonstrates practical applications in the field of energy systems with good results shown through empirical studies. The techniques proposed are relatively easy to replicate, as they utilize existing models and frameworks (like HuggingFace's Transformers library). Therefore, I would assign a grade of **4**. This indicates that while the results are promising and applicable, they may require some specialized knowledge to implement effectively.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper investigates the use of time-series foundation models (TSFMs) for probabilistic forecasting in building energy systems. It addresses the challenges of accurate time-series forecasting, particularly in scenarios with limited data. The authors demonstrate that fine-tuning TSFMs can significantly enhance prediction accuracy and generalization capabilities, even in zero-shot scenarios. Through empirical studies using real building data, the paper shows that fine-tuned TSFMs outperform traditional deep learning models in various forecasting tasks. The findings suggest that TSFMs can be effectively applied in real-world energy systems for predictive maintenance and control applications.",
+    "macrotopic": "others",
+    "model": "transformer",
+    "application": "regression model",
+    "grade": "4"
+}
+```

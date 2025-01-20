@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of tabular data synthesis and the motivation behind using language models for this task. Mention the proposed solution, Tabby, and its significance.
+  
+2. **Main contributions**: Highlight the key contributions of the paper, including the introduction of Tabby, the exploration of training techniques, and the demonstration of improved synthetic data quality.
+
+3. **Proposed technique**: Describe the architecture of Tabby, focusing on the Gated Mixture-of-Expert layers and how they enhance the modeling of tabular data.
+
+4. **Main results**: Summarize the experimental results, emphasizing the performance improvements of Tabby over existing methods and its ability to generate high-quality synthetic data.
+
+5. **Applications or possible practical applications**: Discuss potential applications of Tabby in various fields that rely on tabular data, such as healthcare, finance, and data augmentation.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on synthesizing tabular data using language models, which falls under the category of **NLP** (Natural Language Processing) as it involves adapting language models for a different data modality.
+
+2. **Type of model employed**: The paper employs a **transformer** architecture, specifically modifying a pre-trained language model (Distilled GPT-2) to better handle tabular data.
+
+3. **Type of application**: The primary application of the proposed model is as a **generative model**, as it aims to generate synthetic tabular datasets that mimic real data.
+
+### Grade Justification
+
+The paper presents a novel approach to synthesizing tabular data using a modified language model, achieving results that are competitive with real data. The experiments demonstrate significant improvements in synthetic data quality, and the methodology is accessible for replication. However, while the results are promising, the practical application may require some specialized knowledge in machine learning and data preprocessing. Therefore, I would assign a grade of **4**: "The paper has practical application and good results were proved, but it is necessary very specialized hardware (eg. clusters of gpus) or software (custom kernels or libs) to be replicated."
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper introduces Tabby, a novel architecture modification to large language models (LLMs) aimed at improving the synthesis of tabular datasets. The authors highlight the underrepresentation of tabular data in machine learning compared to images and text, and propose Tabby as a solution to enhance the quality of synthetic tabular data. The main contributions include the introduction of Tabby, exploration of various training techniques, and demonstration of improved synthetic data quality across multiple datasets. Tabby utilizes Gated Mixture-of-Expert layers to model individual columns more effectively, leading to higher generative fidelity. Experimental results show that Tabby achieves performance on par with real data in two out of three datasets, significantly outperforming existing methods. The potential applications of Tabby span various domains that rely on tabular data, such as healthcare, finance, and data augmentation, making it a valuable tool for practitioners in these fields.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

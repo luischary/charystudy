@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the application of LLMs to link prediction tasks on text-attributed graphs (TAGs). Mention the challenges faced in this domain and the proposed solution, LINKGPT.
+
+2. **Main contributions**: Highlight the key contributions of the paper, including the introduction of LINKGPT, the two-stage instruction tuning approach, and the retrieval-reranking scheme for efficient inference.
+
+3. **Proposed technique**: Describe the LINKGPT framework, detailing its components such as node and pairwise encoding, the two-stage instruction tuning, and the retrieval-reranking mechanism.
+
+4. **Main results**: Summarize the experimental results, emphasizing LINKGPT's performance compared to baseline models, its generalization capabilities, and efficiency improvements during inference.
+
+5. **Applications or possible practical applications**: Discuss potential applications of LINKGPT in real-world scenarios, such as social networks, recommendation systems, and other domains involving graph-structured data.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on applying LLMs to graph-based tasks, specifically link prediction on text-attributed graphs, which falls under the category of **NLP** due to the involvement of language models and textual data.
+
+2. **Type of model employed**: The model proposed in the paper is based on **transformer** architecture, as it utilizes large language models (LLMs) which are typically transformer-based.
+
+3. **Type of application**: The primary application of LINKGPT is as a **generative model** for link prediction, as it predicts missing links between nodes in a graph.
+
+### Grade Justification
+
+The paper presents a novel approach with practical applications in link prediction using LLMs. It demonstrates good results and efficiency improvements, achieving state-of-the-art performance across multiple datasets. The techniques proposed are not overly specialized, making them accessible for replication by others. Therefore, I would assign a grade of **4**. This indicates that while the paper shows good results and practical applications, it may require some specialized knowledge or resources to fully implement.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper introduces LINKGPT, a novel framework that leverages Large Language Models (LLMs) for link prediction tasks on text-attributed graphs (TAGs). The authors identify key challenges in integrating structural information into LLMs and addressing computational bottlenecks during inference. LINKGPT employs a two-stage instruction tuning approach and a retrieval-reranking scheme to enhance performance and efficiency. Experimental results demonstrate that LINKGPT achieves state-of-the-art performance across various datasets, showcasing strong generalization capabilities in zero-shot and few-shot settings. The framework has potential applications in social networks, recommendation systems, and other domains involving graph-structured data.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

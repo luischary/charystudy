@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce DiscoDiff, a novel text-to-music generative model that employs a coarse-to-fine strategy using latent diffusion models to enhance audio quality.
+2. **Main contributions**: Highlight the introduction of a new generation method, the curation of high-quality datasets, and the open-sourcing of the model and codebase.
+3. **Proposed technique**: Describe the two-step diffusion model process that generates primary and secondary latents, leveraging the Descript Audio Codec for audio representation.
+4. **Main results**: Present the performance metrics of DiscoDiff compared to existing models, emphasizing its audio quality and faster inference times.
+5. **Applications or possible practical applications**: Discuss potential uses in music generation, sound design, and creative industries.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on generating music from text, which falls under the category of **NLP** (Natural Language Processing) as it involves text conditioning for audio generation.
+2. **Type of model employed**: The model utilizes **latent diffusion models**, which are a specific type of generative model that operates in a latent space.
+3. **Type of application**: The primary function of DiscoDiff is as a **generative model**, specifically for creating music based on textual input.
+
+### Grade Justification
+
+The paper demonstrates practical applications in music generation with good results, as evidenced by its competitive performance metrics. However, it relies on specific datasets and methodologies that may not be easily replicable without access to similar resources. Therefore, I would assign it a grade of **4**: "The paper has practical application and good results were proved, but it is necessary very specialized hardware (eg. clusters of gpus) or software (custom kernels or libs) to be replicated."
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper introduces DiscoDiff, a novel text-to-music generative model that employs a coarse-to-fine generation strategy using two latent diffusion models to produce high-fidelity music at 44.1 kHz. The approach enhances audio quality by leveraging residual vector quantization from the Descript Audio Codec. The authors validate the effectiveness of their method through various objective metrics and provide access to high-quality synthetic captions for the MTG-Jamendo and FMA datasets, along with open-sourcing DiscoDiff's codebase and model checkpoints. The proposed technique involves generating primary and secondary latents, where the primary model captures core content and the secondary model refines details. The results show that DiscoDiff outperforms existing models in audio quality and inference speed, making it a promising tool for music generation and sound design.",
+    "macrotopic": "NLP",
+    "model": "latent diffusion models",
+    "application": "generative model",
+    "grade": "4"
+}
+```

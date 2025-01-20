@@ -1,0 +1,7 @@
+{
+    "summary": "This paper investigates the vulnerabilities of machine learning models, particularly neural networks and language models, to undetectable backdoor attacks. The authors propose a framework for injecting backdoors into obfuscated models, ensuring that these backdoors remain undetectable even with white-box access to the model. They introduce the concept of undetectable backdoors and demonstrate how to apply indistinguishability obfuscation to protect sensitive information while allowing for malicious modifications. The paper also extends these techniques to language models, utilizing steganographic functions to embed triggers for backdoor activation. The findings highlight the critical need for robust defenses against such attacks in high-stakes applications like finance and healthcare.",
+    "macrotopic": "security in machine learning",
+    "model": "neural networks and language models",
+    "application": "backdoor attacks",
+    "grade": "4"
+}

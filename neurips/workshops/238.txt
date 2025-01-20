@@ -1,0 +1,7 @@
+{
+    "summary": "This paper presents a novel approach to subgroup discovery using Cox regression models, focusing on identifying interpretable subsets of data where the Cox model can make accurate predictions. The authors introduce two key innovations: the expected prediction entropy (EPE), a new metric for evaluating survival models, and the conditional rank distribution, which assesses how individual data points deviate from the survival time distribution of identified subgroups. The method aims to enhance both the predictive accuracy of Cox models and the interpretability of the discovered subgroups, making them useful for clinical studies. The authors validate their approach through experiments on synthetic and real datasets, demonstrating its effectiveness in subgroup identification and prediction accuracy.",
+    "macrotopic": "NLP",
+    "model": "general (deep learning)",
+    "application": "classification model",
+    "grade": "4"
+}

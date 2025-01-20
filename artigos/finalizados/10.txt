@@ -1,0 +1,13 @@
+```json
+{
+   "titulo": "Test of Time: A Benchmark for Evaluating LLMs on Temporal Reasoning",
+   "publicacao": "🕒 **Descubra como os modelos de linguagem estão evoluindo na compreensão do tempo!**  \nOs modelos de linguagem grandes (LLMs) têm mostrado habilidades impressionantes, mas ainda enfrentam desafios em tarefas de raciocínio temporal. Este estudo apresenta o *Test of Time (ToT)*, um novo benchmark que avalia a capacidade dos LLMs em raciocínio temporal de forma mais abrangente.  \n🔍 **O que é isso?**  \nRaciocínio temporal é a habilidade de entender e manipular informações relacionadas ao tempo, essencial para muitas aplicações de inteligência artificial. No entanto, benchmarks existentes muitas vezes não capturam a complexidade real dessas tarefas.  \n⚙️ **Inovação em foco:**  \nO ToT introduz conjuntos de dados sintéticos que permitem uma avaliação mais rigorosa das habilidades de raciocínio temporal dos LLMs. Ele se divide em duas tarefas principais: *ToT-Semantic*, que foca na lógica temporal, e *ToT-Arithmetic*, que avalia a aritmética temporal. Essa abordagem permite uma análise mais detalhada das capacidades dos modelos, isolando diferentes habilidades de raciocínio.  \n📈 **Resultados impactantes:**  \nOs resultados mostram que a estrutura dos dados e o tipo de perguntas influenciam significativamente o desempenho dos LLMs. Por exemplo, o modelo GPT-4 teve uma precisão de 92% em gráficos AWE, destacando a importância de um benchmark bem projetado. Além disso, os dados e a estrutura do ToT estão disponíveis para a comunidade, promovendo mais pesquisas nesta área.  \n🤝 **Vamos conversar!**  \nFique à vontade para comentar suas impressões ou compartilhar suas experiências com raciocínio temporal em modelos de linguagem!  \n#MachineLearning #DataScience #AI #TemporalReasoning #LLMs",
+   "chamadas_post": [
+      "🕒 Descubra como os LLMs estão evoluindo no raciocínio temporal!",
+      "🔍 Conheça o *Test of Time*, o novo benchmark para LLMs!",
+      "⚙️ Inovações em raciocínio temporal: saiba mais sobre o ToT!",
+      "📈 Resultados surpreendentes no raciocínio temporal com LLMs!",
+      "🤝 Vamos discutir as capacidades dos modelos de linguagem em raciocínio temporal!"
+   ]
+}
+```

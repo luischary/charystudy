@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is about targeted instruction tuning in large language models (LLMs) and the proposed method called LESS.
+  
+2. **Main contributions**: Highlight the key contributions of the paper, including the introduction of the LESS algorithm and its advantages over existing methods.
+
+3. **Proposed technique**: Describe the LESS algorithm, its components, and how it operates, particularly focusing on its optimizer-aware approach and data selection mechanism.
+
+4. **Main results**: Summarize the experimental results that demonstrate the effectiveness of LESS compared to other methods, including performance metrics across various datasets.
+
+5. **Applications or possible practical applications**: Discuss potential applications of the LESS algorithm in real-world scenarios, particularly in improving the performance of LLMs in specific tasks.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper primarily deals with **NLP** as it focuses on instruction tuning for language models.
+  
+2. **Type of model employed**: The paper employs a **general (deep learning)** model, specifically large language models (LLMs) like LLAMA-2 and MISTRAL.
+
+3. **Type of application**: The application of the proposed method is primarily as a **data selection optimizer** for enhancing instruction tuning in LLMs.
+
+### Grade Justification
+
+The paper presents a novel approach to data selection for instruction tuning, demonstrating significant improvements in model performance using a small subset of data. The results are compelling, showing that training on just 5% of the data selected by LESS can outperform training on the full dataset. The method is practical and can be replicated with standard hardware, making it accessible for other researchers and practitioners. Therefore, I would assign a grade of **4**. This indicates that while the results are strong and practical applications are evident, the method may require specialized knowledge to implement effectively.
+
+### JSON Response
+
+```json
+{
+    "summary": "The paper introduces LESS, an optimizer-aware algorithm designed for targeted instruction tuning in large language models (LLMs). It addresses the challenge of selecting relevant data from extensive instruction datasets to enhance specific capabilities, such as reasoning. LESS constructs a gradient datastore to estimate data influences and selects examples based on their similarity to few-shot examples. Experimental results demonstrate that training on a LESS-selected subset of just 5% of the data often outperforms training on the full dataset across various downstream tasks, showcasing the method's efficiency and transferability across different model scales and families. The qualitative analysis indicates that LESS effectively identifies data exemplifying necessary reasoning skills for the intended tasks, making it a valuable tool for improving LLM performance in real-world applications.",
+    "macrotopic": "NLP",
+    "model": "general (deep learning)",
+    "application": "optimizer",
+    "grade": "4"
+}
+```

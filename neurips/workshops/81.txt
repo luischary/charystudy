@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the alignment of Large Language Models (LLMs) with investor decision-making processes, particularly under herd behavior in finance.
+  
+2. **Main contributions**: Highlight the key contributions of the paper, such as the introduction of the InvestAlign method and the development of InvestAgents.
+
+3. **Proposed technique**: Describe the InvestAlign technique, emphasizing how it constructs training datasets from theoretical solutions to simpler investment problems.
+
+4. **Main results**: Summarize the experimental results that demonstrate the effectiveness of InvestAlign in improving the alignment of LLMs with real-user investment decisions.
+
+5. **Applications or possible practical applications**: Discuss the potential applications of the proposed method in finance and economics, particularly in investment decision-making.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on the application of LLMs in finance, specifically in investment decision-making, which falls under the category of **NLP** (Natural Language Processing).
+
+2. **Type of model employed**: The paper employs **transformer** models, which are a type of deep learning architecture commonly used in NLP tasks.
+
+3. **Type of application**: The application is primarily a **generative model**, as it involves generating investment decisions based on learned patterns from the training data.
+
+### Grade Justification
+
+The paper presents a novel approach to align LLMs with investor behavior using theoretical solutions to simpler problems, which is innovative and addresses a significant gap in the literature. The experimental results show a substantial improvement in alignment with real-user data, indicating practical applicability. However, the method may require specialized knowledge in finance and investment theory to implement effectively. Therefore, I would assign a grade of **4**: "The paper has practical application and good results were proved, but it is necessary very specialized hardware (eg. clusters of gpus) or software (custom kernels or libs) to be replicated."
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper presents InvestAlign, a method designed to align Large Language Models (LLMs) with investor decision-making processes, particularly under herd behavior in finance. The authors identify that existing LLMs often deviate from real-user data, and propose a solution that constructs large-scale supervised fine-tuning (SFT) datasets based on theoretical solutions to simpler investment problems. The results demonstrate that fine-tuning LLMs with these datasets leads to faster parameter convergence and better alignment with real-user data, resulting in the development of InvestAgents. The findings suggest that InvestAlign can effectively address complex optimal investment problems and improve LLMs' alignment with investor behavior in economics and finance.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

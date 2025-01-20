@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the Evolved Sampling (ES) framework for data-efficient training in machine learning.
+2. **Main contributions**: Highlight the key contributions, such as the introduction of a dynamic sampling method that improves training efficiency without sacrificing performance.
+3. **Proposed technique**: Describe the Evolved Sampling method, including its mechanism of using historical loss differences for data selection.
+4. **Main results**: Summarize the experimental results demonstrating the effectiveness of ES in various scenarios, particularly under noisy conditions.
+5. **Applications or possible practical applications**: Discuss potential applications of the technique in real-world machine learning tasks, especially in scenarios with large datasets and noisy labels.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on data-efficient training methods in machine learning, which falls under the category of "others" since it does not fit neatly into NLP, image processing, etc.
+2. **Type of model employed**: The proposed method is a general framework that can be applied across various models, thus classified as "general (deep learning)".
+3. **Type of application**: The primary goal of the proposed method is to optimize the training process, making it an "optimizer".
+
+### Grade Justification
+
+The paper presents a novel and effective method for dynamic data sampling that significantly improves training efficiency and robustness, especially under noisy conditions. The results show substantial improvements over existing methods, and the framework is easy to implement. However, while the results are promising, the practical application may require some tuning and understanding of the hyperparameters involved. Therefore, I would grade this paper as a **4**: it has practical applications and good results were proved, but it may require specialized knowledge to replicate effectively.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper introduces Evolved Sampling (ES), a dynamic sampling framework designed to enhance data efficiency during the training of machine learning models. The authors propose a method that selects informative data samples based on the evolution of historical and current losses, significantly reducing backpropagation time while maintaining model performance. ES is versatile and can be extended to set-level data selection, achieving lossless training accelerations across various models and datasets. Experimental results demonstrate that ES can save up to 40% in wall-clock time and improve accuracy by approximately 20% under noisy supervision conditions. The proposed technique has practical applications in large-scale machine learning tasks, particularly in scenarios with noisy labels, making it a valuable tool for practitioners aiming to optimize training efficiency.",
+    "macrotopic": "others",
+    "model": "general (deep learning)",
+    "application": "optimizer",
+    "grade": "4"
+}
+```

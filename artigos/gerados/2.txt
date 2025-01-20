@@ -1,0 +1,13 @@
+```json
+{
+   "titulo": "Stochastic Taylor Derivative Estimator: Efficient amortization for arbitrary differential operators",
+   "publicacao": "🚀 **Título chamativo:** Acelere a otimização de redes neurais com o Estimador Estocástico de Derivadas de Taylor! \n\n🔍 **Contexto leigo:** Redes neurais que lidam com operadores diferenciais de alta ordem e alta dimensão são difíceis de otimizar devido ao alto custo computacional. \n\n🛠️ **Ponto técnico:** O Estimador Estocástico de Derivadas de Taylor (STDE) utiliza a diferenciação automática de ordem superior para contrair eficientemente tensores de derivadas de funções multivariadas, permitindo a randomização de qualquer operador diferencial. \n\n📊 **Resultados:** Aplicado a Redes Neurais Informadas por Física (PINNs), o STDE oferece mais de 1000x de aceleração e mais de 30x de redução de memória em comparação com métodos tradicionais, resolvendo PDEs de 1 milhão de dimensões em 8 minutos em uma única GPU NVIDIA A100. \n\n👉 **Call to action:** Quer saber mais sobre como o STDE pode revolucionar a otimização de redes neurais? Deixe seu comentário ou entre em contato! \n\n#MachineLearning #DataScience #NeuralNetworks #PhysicsInformed #Optimization",
+   "chamadas_post": [
+      "Olha só essa novidade em otimização de redes neurais!",
+      "Mais um grande avanço em machine learning com o STDE!",
+      "Descubra como acelerar suas redes neurais com o STDE!",
+      "Reduza o tempo e memória na otimização de redes neurais!",
+      "Quer saber como resolver PDEs complexas rapidamente? Confira!"
+   ]
+}
+```

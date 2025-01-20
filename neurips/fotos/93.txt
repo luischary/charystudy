@@ -1,0 +1,7 @@
+{
+    "summary": "This paper investigates the robustness of diffusion classifiers, which are generative models that have shown promise in handling adversarial attacks. The authors establish a theoretical foundation for the certified robustness of these classifiers by proving their Lipschitzness and deriving a certified lower bound for their performance. They introduce two novel techniques: the Exact Posterior Noised Diffusion Classifier (EPNDC) and the Approximated Posterior Noised Diffusion Classifier (APNDC), which enhance the classifiers' ability to handle noisy data and improve computational efficiency. Experimental results demonstrate that the proposed methods achieve state-of-the-art certified robustness on benchmark datasets like CIFAR-10 and ImageNet, significantly outperforming existing methods while maintaining lower computational costs.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "5"
+}

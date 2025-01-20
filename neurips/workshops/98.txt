@@ -1,0 +1,7 @@
+{
+    "summary": "This paper introduces a novel framework for ensuring model developmental safety (MDS) in learning-enabled systems, particularly in safety-critical applications like autonomous driving. The authors highlight the issue of catastrophic forgetting, where improving a model's capabilities can inadvertently degrade its performance on previously learned tasks. They propose a safety-centric approach that formulates MDS as data-dependent constraints, ensuring that new models maintain the performance of old models while enhancing their capabilities. The framework is applied to develop a pretrained vision-language model (CLIP) for image classification tasks, demonstrating its effectiveness through comprehensive experiments on datasets related to autonomous driving and scene recognition.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "classification model",
+    "grade": "5"
+}

@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of fine-tuning large language models (LLMs) and the need for efficient methods to reduce computational resources.
+2. **Main contributions**: Highlight the introduction of the SubTrack method and its advantages over existing methods like GaLore.
+3. **Proposed technique**: Describe how SubTrack works, focusing on its use of gradient subspace tracking and rank-1 updates.
+4. **Main results**: Summarize the performance improvements and runtime reductions achieved by SubTrack compared to GaLore.
+5. **Applications or possible practical applications**: Discuss the implications of SubTrack for democratizing access to LLMs and its potential use in various NLP tasks.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on enhancing the efficiency of fine-tuning large language models, which falls under the category of NLP.
+2. **Type of model employed**: The technique proposed is based on deep learning principles, specifically utilizing gradient subspace tracking, which is a general approach in deep learning.
+3. **Type of application**: The primary application of the proposed method is as an optimizer for fine-tuning large language models, making it a classification model in the context of NLP tasks.
+
+### Grade Justification
+
+The paper presents a practical application with good results that were empirically tested, demonstrating a significant reduction in runtime and comparable performance to existing methods. The technique is not overly specialized, making it relatively easy for others to replicate. Therefore, I would assign a grade of **4**.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper addresses the challenges of fine-tuning large language models (LLMs) by introducing Gradient Subspace Tracking (SubTrack), a method designed to enhance computational efficiency. SubTrack restricts optimization to a compact core subspace of gradient matrices and updates its estimation dynamically, achieving performance comparable to existing methods like GaLore while reducing runtime by an average of 15% and up to 20.56% on certain datasets. The proposed technique leverages accumulated gradients and orthogonal components to mitigate noise and improve convergence speed. Experimental results demonstrate that SubTrack not only maintains performance but also significantly reduces the time required for fine-tuning tasks. The implications of this work are substantial, as it could democratize access to LLMs by making their training more efficient and accessible for various applications in natural language processing.",
+    "macrotopic": "NLP",
+    "model": "general (deep learning)",
+    "application": "optimizer",
+    "grade": "4"
+}
+```

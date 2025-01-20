@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the adaptation of Multimodal Large Language Models (MLLMs) through a novel decoding method.
+2. **Main contributions**: Highlight the key contributions of the paper, including the introduction of reward-guided decoding and its effectiveness in visual grounding.
+3. **Proposed technique**: Describe the reward-guided decoding method, how it works, and its components.
+4. **Main results**: Summarize the experimental results, focusing on performance metrics and comparisons with existing methods.
+5. **Applications or possible practical applications**: Discuss the potential applications of the proposed technique in real-world scenarios.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on Multimodal Large Language Models (MLLMs), which involve both language and visual data processing, thus classifying it under **NLP**.
+2. **Type of model employed**: The paper employs a **transformer** architecture, which is commonly used in MLLMs for processing sequential data.
+3. **Type of application**: The primary application of the proposed technique is for **generative models**, specifically in generating captions for images while controlling the output quality.
+
+### Grade Justification
+
+The paper presents a practical application of the proposed method with good results demonstrated on standard benchmarks. The method allows for on-the-fly control of output quality and precision, making it relatively easy for others to replicate the technique without requiring specialized hardware or software. Therefore, I would assign a grade of **4**.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper presents a novel method for adapting Multimodal Large Language Models (MLLMs) through reward-guided decoding (RGD). The authors introduce a reward model specifically designed for visual grounding, enabling users to control the output of MLLMs dynamically. The method allows users to balance object precision and recall in image captioning tasks while managing computational resources effectively. Experimental results demonstrate that RGD significantly reduces object hallucinations compared to existing methods, achieving competitive performance on standard benchmarks. The proposed technique has practical applications in enhancing the usability of MLLMs for diverse user needs, particularly in accessibility and content generation.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

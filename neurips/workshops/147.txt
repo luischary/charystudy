@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the development of a specialized code language model for Java, NT-Java-1.1B, and its significance in the context of existing models.
+  
+2. **What are its main contributions**: Highlight the key contributions, such as the creation of a smaller, efficient model that performs well on Java coding tasks and the open-source nature of the model.
+
+3. **A brief description of the proposed technique**: Explain the methodology used to develop NT-Java-1.1B, including the training process, architecture, and the use of quantization for desktop deployment.
+
+4. **Main results**: Summarize the performance metrics achieved by NT-Java-1.1B on benchmarks like MultiPL-E and HumanEval, comparing it to other models.
+
+5. **Applications or possible practical applications**: Discuss the practical implications of the model, such as its deployment on developer desktops and its potential to enhance coding productivity.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on a specialized language model for coding tasks, which falls under the category of NLP (Natural Language Processing) as it deals with code generation and understanding.
+
+2. **Type of model employed**: The model is based on the Transformer architecture, specifically a decoder-only Transformer model, which is a common structure for language models.
+
+3. **Type of application**: The primary application of the model is as a generative model for code, specifically designed to assist in coding tasks by generating Java code snippets.
+
+### Summary and Classification
+
+```json
+{
+    "summary": "This paper presents NT-Java-1.1B, an open-source specialized code language model built on StarCoderBase-1.1B, designed specifically for Java programming tasks. The model addresses the need for smaller, efficient code models that can be deployed on developer desktops, achieving state-of-the-art performance on the MultiPL-E Java code benchmark. The authors demonstrate that NT-Java-1.1B outperforms its base model and other similar-sized models, making it suitable for practical applications in coding environments. The model employs a decoder-only Transformer architecture and utilizes quantization techniques to reduce its size for desktop deployment. Experimental results show that NT-Java-1.1B achieves a pass@1 score of 20.2 on MultiPL-E, indicating its effectiveness in code generation tasks. The practical applications of this model include enhancing coding productivity for developers by providing a lightweight tool that can run on personal computers without the need for specialized hardware.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "5"
+}
+```
+
+### Grade Justification
+
+I assigned a grade of **5** because the paper presents a practical application with good results that can be easily replicated by others. The model is open-source, making it accessible for developers and researchers, and it demonstrates significant performance improvements on relevant benchmarks, indicating its utility in real-world coding tasks.

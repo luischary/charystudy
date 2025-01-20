@@ -1,0 +1,7 @@
+{
+    "summary": "This paper introduces a novel framework for statistical modeling that utilizes natural language predicates to enhance the interpretability of model parameters. The authors propose a family of models, including clustering, time series, and classification, where parameters are represented as natural language predicates, making them inherently interpretable. They develop a model-agnostic algorithm that optimizes these predicates through continuous relaxation and iterative refinement, allowing for effective learning and application across various domains. The framework is applied to diverse tasks, demonstrating its versatility and ability to explain complex concepts that traditional methods struggle with. The results indicate significant improvements in interpretability and performance over existing methods.",
+    "macrotopic": "NLP",
+    "model": "general (deep learning)",
+    "application": "classification model",
+    "grade": "5"
+}

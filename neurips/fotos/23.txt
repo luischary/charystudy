@@ -1,0 +1,29 @@
+### Summary Sketch
+
+1. **Overview about the paper**: Introduce the problem of limited context awareness in large language models (LLMs) and the proposed solution, MoICE.
+2. **Main contributions**: Highlight the introduction of MoICE, its components, and its performance improvements over existing methods.
+3. **Proposed technique**: Describe the MoICE architecture, focusing on the router mechanism and its dynamic selection of RoPE angles.
+4. **Main results**: Summarize the experimental results showing MoICE's superiority in various tasks and its efficiency.
+5. **Applications or possible practical applications**: Discuss potential applications in long-context understanding, retrieval-augmented generation, and other NLP tasks.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on enhancing the capabilities of large language models, specifically in the context of natural language processing (NLP).
+2. **Type of model employed**: The proposed technique integrates a router mechanism into transformer-based architectures, which are commonly used in LLMs.
+3. **Type of application**: The primary application of MoICE is as a generative model that enhances context awareness for tasks requiring long-context understanding.
+
+### Grade Justification
+
+The paper demonstrates practical applications with good results across various tasks, showing that MoICE can be implemented with relative ease compared to other methods. The results are robust and reproducible, making it accessible for other researchers to apply the technique. Therefore, I would assign a grade of **5**.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper addresses the limited context awareness of large language models (LLMs) by introducing a novel technique called Mixture of In-Context Experts (MoICE). MoICE enhances LLMs' ability to process long contexts by integrating a router mechanism within each attention head, allowing for dynamic selection of rotary position embedding (RoPE) angles. The main contributions include the development of MoICE, which outperforms existing methods in various long-context tasks while maintaining efficiency. Experimental results demonstrate significant improvements in both closed-ended and open-ended tasks across multiple LLMs, showcasing MoICE's effectiveness. The technique has practical applications in long-context understanding, retrieval-augmented generation, and other NLP tasks, making it a valuable advancement in the field.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "5"
+}
+```

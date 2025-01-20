@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of catastrophic forgetting in continual learning and the limitations of existing prompt-based methods. Present the proposed solution, CoEn, which dynamically manages the prompt pool.
+  
+2. **Main contributions**: Highlight the key innovations of the paper, including the self-enhancement mechanism and the dynamic management of the prompt pool, which improve knowledge transfer and reduce forgetting.
+
+3. **Proposed technique**: Describe the CoEn framework, focusing on how it assesses prompt suitability for new tasks and enhances the prompt pool through addition and aggregation.
+
+4. **Main results**: Summarize the experimental results, emphasizing the performance improvements over existing methods in various benchmark datasets.
+
+5. **Applications or possible practical applications**: Discuss potential applications in fields requiring continual learning, such as robotics, autonomous systems, and adaptive AI systems.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on continual learning and prompt-based methods, which are primarily related to NLP and image processing. However, since the main focus is on continual learning techniques applicable to various domains, I classify it under "others."
+
+2. **Type of model employed**: The proposed method utilizes a transformer-based architecture (Vision Transformer) for image classification tasks, making "transformer" the most appropriate classification.
+
+3. **Type of application**: The paper presents a model that enhances continual learning capabilities, which is best classified as a "generative model" since it generates new knowledge representations dynamically.
+
+### Grade Justification
+
+The paper demonstrates practical applications with good results, showing an average accuracy improvement of 3.8% across various scenarios. The method is innovative and addresses a significant challenge in continual learning. However, it may require specialized knowledge to implement effectively, as it involves understanding the dynamics of prompt management. Therefore, I assign a grade of **4**.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper addresses the challenge of catastrophic forgetting in continual learning by proposing CoEn (Continual Enhanced prompt pool), which dynamically manages a prompt pool to enhance knowledge transfer for new tasks. The authors introduce a self-enhancement mechanism that evaluates the suitability of prompts for new tasks and selectively strengthens them, allowing for better adaptation and retention of knowledge. Experimental results demonstrate that CoEn outperforms existing prompt-based methods by an average of 3.8% across various image classification benchmarks, indicating its effectiveness in mitigating forgetting while learning new tasks. The proposed technique has potential applications in fields requiring continual learning, such as robotics and adaptive AI systems.",
+    "macrotopic": "others",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

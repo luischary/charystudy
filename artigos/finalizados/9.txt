@@ -1,0 +1,13 @@
+```json
+{
+   "titulo": "TALK LIKE A GRAPH: ENCODING GRAPHS FOR LARGE LANGUAGE MODELS",
+   "publicacao": "🧠 **Descubra como transformar dados em gráficos para melhorar a inteligência artificial!**  \n\n📊 **Contexto Leigo:** Os gráficos são ferramentas poderosas para entender relações complexas, como em redes sociais e sistemas de recomendação. No entanto, a maioria dos modelos de linguagem ainda luta para interpretar esses dados de forma eficaz.  \n\n🔍 **Ponto Técnico:** Este estudo inova ao explorar como codificar dados estruturados em gráficos como texto para modelos de linguagem. A pesquisa revela que a escolha do método de codificação de gráficos e a estrutura do gráfico impactam significativamente o desempenho em tarefas de raciocínio gráfico, com melhorias de até 61,8% em algumas tarefas.  \n\n📈 **Resultados:** Os resultados mostram que a codificação correta pode aumentar a precisão em tarefas de raciocínio gráfico, como verificar a existência de arestas e contar nós. Isso não só melhora a performance técnica, mas também abre novas possibilidades para aplicações práticas em IA.  \n\n👉 **Call to Action:** Quer saber mais sobre como a codificação de gráficos pode revolucionar a IA? Siga-nos e fique por dentro das novidades!  \n\n#MachineLearning #DataScience #AI #GraphTheory #LanguageModels",
+   "chamadas_post": [
+      "Olha só essa novidade sobre como gráficos podem melhorar a IA!",
+      "Mais um grande avanço em raciocínio gráfico com modelos de linguagem!",
+      "Descubra como a codificação de gráficos pode transformar a inteligência artificial!",
+      "Você sabia que a estrutura dos gráficos pode impactar a performance da IA? Confira!",
+      "Entenda como gráficos e IA estão se unindo para criar soluções inovadoras!"
+   ]
+}
+```

@@ -1,0 +1,12 @@
+{
+   "titulo": "A Kernel Two-Sample Test with the Representation Jensen-Shannon Divergence",
+   "publicacao": "🔍 Descubra o poder do RJSD: uma nova abordagem para testes de duas amostras! \n\n📚 Você já se perguntou como podemos saber se duas coleções de dados são realmente diferentes? Isso é crucial em muitas áreas, desde a detecção de fraudes até a análise de imagens médicas. \n\n🔬 Apresentamos o RJSD, uma nova estrutura baseada em kernel que utiliza a divergência de Jensen-Shannon para capturar informações de ordem superior em espaços de Hilbert. Ao contrário de métodos tradicionais, como o MMD, o RJSD não assume gaussianidade, tornando-o mais robusto e flexível. \n\n🚀 O RJSD mostrou-se superior em testes extensivos, destacando-se como uma alternativa poderosa ao MMD, com potencial para revolucionar a comparação de distribuições em aprendizado de máquina. \n\n👉 Quer saber mais sobre como o RJSD pode transformar suas análises de dados? Entre em contato e vamos explorar juntos! \n\n#MachineLearning #DataScience #KernelMethods #JSD #AIResearch",
+   "chamadas_post": [
+      "Olha só essa novidade em testes de duas amostras!",
+      "Mais um grande avanço em comparação de distribuições!",
+      "Descubra o poder do RJSD para suas análises de dados!",
+      "Revolucione seus testes com a nova abordagem RJSD!",
+      "Quer saber como o RJSD pode transformar sua pesquisa?"
+   ],
+   "paper": "https://arxiv.org/abs/2305.16446"
+}

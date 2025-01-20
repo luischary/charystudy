@@ -1,0 +1,13 @@
+{
+    "summary": {
+        "overview": "The paper introduces OLMOE, a fully open Mixture-of-Experts (MoE) language model that achieves state-of-the-art performance while being cost-effective. OLMOE-1B-7B has 7 billion parameters but activates only 1 billion per input token, making it efficient for training and inference. The model is pretrained on 5 trillion tokens and further adapted to create OLMOE-1B-7B-INSTRUCT, which outperforms larger models like Llama2-13B-Chat.",
+        "main_contributions": "The main contributions of this work include the development of an open-source MoE model that surpasses existing models in performance with fewer active parameters, comprehensive experiments on MoE training, and the release of all model weights, training data, code, and logs to facilitate further research.",
+        "proposed_technique": "OLMOE employs a sparse Mixture-of-Experts architecture, activating a subset of experts for each input token. The model uses fine-grained routing with 64 small experts per layer, of which 8 are activated. It incorporates auxiliary losses for load balancing and stability, and it is trained from scratch rather than through upcycling from a dense model.",
+        "main_results": "OLMOE-1B-7B demonstrates superior performance on various benchmarks, achieving better results than models with similar active parameters and even larger models. It trains approximately twice as fast as dense models with equivalent active parameters and shows high specialization in expert routing.",
+        "applications": "The practical applications of OLMOE include its use in natural language processing tasks such as text generation, question answering, and instruction following. Its open-source nature allows researchers and developers to build upon its architecture for various applications in AI and machine learning."
+    },
+    "macrotopic": "NLP",
+    "model": "Mixture-of-Experts",
+    "application": "generative model",
+    "grade": "5"
+}

@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the AV-DiT model and its purpose in generating joint audio and video content.
+2. **Main contributions**: Highlight the key innovations and findings of the paper.
+3. **Proposed technique**: Describe the architecture and components of the AV-DiT model.
+4. **Main results**: Summarize the performance metrics and comparisons with existing models.
+5. **Applications or possible practical applications**: Discuss potential uses of the AV-DiT model in real-world scenarios.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on joint audio and video generation, which falls under the category of **audio processing** and **image processing**.
+2. **Type of model employed**: The model employs a **transformer** architecture, specifically a diffusion transformer, which is a novel approach in this domain.
+3. **Type of application**: The AV-DiT model is primarily a **generative model**, as it generates audio-visual content.
+
+### Grade Justification
+
+The paper demonstrates practical applications in generating synchronized audio and video content with competitive performance compared to state-of-the-art methods. The results are validated through extensive experiments on benchmark datasets, showing that the model can be effectively utilized in real-world scenarios. However, the implementation may require specialized hardware for optimal performance. Therefore, I would assign a grade of **4**.
+
+### JSON Response
+
+```json
+{
+    "summary": "The paper presents AV-DiT, an innovative Audio-Visual Diffusion Transformer designed for efficient joint audio and video generation. It leverages a shared frozen diffusion transformer backbone pre-trained on image data, incorporating lightweight trainable adapters to facilitate audio and video generation. The model addresses challenges such as temporal consistency for video, domain gap mitigation for audio, and multimodal alignment. Extensive experiments on the AIST++ and Landscape datasets demonstrate that AV-DiT achieves state-of-the-art performance with significantly fewer trainable parameters compared to existing methods, showcasing its efficiency and effectiveness in generating high-quality audio-visual content.",
+    "macrotopic": "audio processing",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

@@ -1,0 +1,7 @@
+{
+    "summary": "The paper introduces TabularBench, the first comprehensive benchmark for evaluating the adversarial robustness of tabular deep learning models. It addresses the gap in research on adversarial attacks in tabular data, which has been less explored compared to fields like computer vision. The authors propose a new attack method, Constrained Adaptive Attack (CAA), and implement seven robustification mechanisms inspired by existing defenses in computer vision. The benchmark includes over 200 models evaluated across five critical real-world scenarios in finance, healthcare, and security, using curated datasets augmented with synthetic data. The findings reveal that different architectures exhibit varying robustness levels, and data augmentation techniques can have task-specific impacts on model performance. The paper also provides an open-source library with API access to pre-trained models and datasets, aiming to facilitate further research in adversarial defenses for tabular data.",
+    "macrotopic": "NLP",
+    "model": "general (deep learning)",
+    "application": "optimizer",
+    "grade": "5"
+}

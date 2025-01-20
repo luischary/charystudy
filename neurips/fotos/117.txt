@@ -1,0 +1,7 @@
+{
+    "summary": "The paper presents MInference, a novel method designed to accelerate the pre-filling stage of long-context Large Language Models (LLMs) by utilizing dynamic sparse attention. The authors identify three unique sparse attention patterns—A-shape, Vertical-Slash, and Block-Sparse—that can be leveraged for efficient computation on GPUs. MInference dynamically builds sparse indices based on these patterns during inference, significantly reducing the computational overhead associated with attention calculations. Experimental results demonstrate that MInference achieves up to a 10× reduction in latency for processing prompts of 1 million tokens while maintaining or improving accuracy across various downstream tasks, including long-context question answering and language modeling. The method can be integrated into existing LLMs without requiring modifications to their pre-training setup or additional fine-tuning, making it a practical solution for enhancing the efficiency of long-context LLMs.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "optimizer",
+    "grade": "5"
+}

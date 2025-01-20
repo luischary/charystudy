@@ -1,0 +1,27 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the development of adaptive world models for reinforcement learning (RL) in non-stationary environments.
+2. **Main contributions**: Highlight the two key contributions: the introduction of the HiP-POMDP formalism and the demonstration of its effectiveness in learning robust behaviors across various benchmarks.
+3. **Proposed technique**: Describe the HiP-POMDP formalism and how it incorporates latent task variables to adapt to changing environments.
+4. **Main results**: Summarize the experimental results showing the performance improvements of the HiP-POMDP over traditional methods in handling non-stationarity.
+5. **Applications or possible practical applications**: Discuss potential applications in robotics and other fields requiring adaptive decision-making in dynamic environments.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on reinforcement learning and world models, which are central to the field of AI and robotics, particularly in dynamic environments.
+2. **Type of model employed**: The HiP-POMDP formalism is a novel approach that builds upon existing probabilistic models, making it a unique contribution to the field of model-based reinforcement learning.
+3. **Type of application**: The primary application is in developing generative models that can adapt to changing tasks and environments, which is crucial for embodied agents.
+
+### Grade Justification
+The paper demonstrates practical applications with good results in various non-stationary benchmarks. The proposed technique is innovative and shows significant improvements over existing methods. However, it may require specialized knowledge to implement fully, which is why it receives a grade of 4.
+
+### JSON Response
+```json
+{
+    "summary": "This paper presents the HiP-POMDP formalism, a novel approach for developing adaptive world models in reinforcement learning (RL) that can effectively handle non-stationary environments. The authors highlight the limitations of existing model-based RL methods and propose a new framework that incorporates latent task variables, enabling agents to learn robust behaviors across various benchmarks. The experimental results demonstrate that the HiP-POMDP outperforms traditional POMDP agents in adapting to changing dynamics and objectives, showcasing its potential for real-world applications. This work opens avenues for further research in robotics and other fields requiring adaptive decision-making in dynamic settings.",
+    "macrotopic": "reinforcement learning",
+    "model": "state-space models",
+    "application": "generative model",
+    "grade": "4"
+}
+```

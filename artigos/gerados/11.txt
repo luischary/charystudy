@@ -1,0 +1,13 @@
+```json
+{
+   "titulo": "Let Your Graph Do the Talking: Encoding Structured Data for LLMs",
+   "publicacao": "🔍 **Descubra como otimizar a representação de dados estruturados em modelos de linguagem!**  \n\n📚 **Contexto Leigo:** Os modelos de linguagem, como os LLMs, têm revolucionado a forma como processamos informações. No entanto, eles enfrentam desafios ao lidar com dados estruturados, como redes sociais ou bancos de dados, que possuem relações complexas entre seus elementos. Como podemos melhorar essa interação?  \n\n⚙️ **Ponto Técnico:** Apresentamos o GraphToken, uma abordagem inovadora que aprende a codificar dados estruturados de forma eficiente para LLMs. Ao invés de usar representações textuais tradicionais, o GraphToken utiliza uma função de codificação que integra informações estruturais diretamente nos prompts, melhorando a capacidade de raciocínio em tarefas de grafos.  \n\n📈 **Resultados:** Nossos testes mostram que o GraphToken melhora significativamente o desempenho em tarefas de raciocínio gráfico, com aumentos de até 73% em benchmarks como o GraphQA. Isso significa que os LLMs podem agora responder perguntas complexas sobre dados estruturados com muito mais precisão!  \n\n🤝 **Call to Action:** Quer saber mais sobre como essa inovação pode impactar sua área? Siga-nos e fique por dentro das últimas pesquisas em inteligência artificial!  \n\n#MachineLearning #DataScience #GraphToken #AI #LLMs #InteligenciaArtificial",
+   "chamadas_post": [
+      "Olha só essa novidade sobre como otimizar dados estruturados!",
+      "Mais um grande avanço em inteligência artificial com o GraphToken!",
+      "Descubra como melhorar o raciocínio em modelos de linguagem!",
+      "Você sabia que é possível aumentar a precisão dos LLMs em tarefas de grafos?",
+      "Entenda como o GraphToken transforma a interação com dados estruturados!"
+   ]
+}
+```

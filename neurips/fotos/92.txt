@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the development of Optimus-1, a multimodal agent designed to excel in long-horizon tasks within an open-world environment like Minecraft. Mention the challenges faced by existing agents and how this paper addresses them.
+
+2. **What are its main contributions**: Highlight the key innovations introduced in the paper, particularly the Hybrid Multimodal Memory module, which includes the Hierarchical Directed Knowledge Graph (HDKG) and Abstracted Multimodal Experience Pool (AMEP).
+
+3. **A brief description of the proposed technique**: Explain how the Hybrid Multimodal Memory works, detailing the roles of HDKG and AMEP in enhancing the agent's ability to plan and reflect on tasks.
+
+4. **Main results**: Summarize the experimental results, emphasizing the performance improvements of Optimus-1 over existing agents and its near-human-level performance in completing long-horizon tasks.
+
+5. **Applications or possible practical applications**: Discuss potential applications of the proposed techniques in various fields, such as robotics, gaming, and AI-driven agents in complex environments.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on developing a multimodal agent for task completion in an open-world environment, which falls under **NLP** due to the use of language models and **reinforcement learning** for task execution.
+
+2. **Type of model employed**: The model employs a **transformer** architecture, particularly leveraging Multimodal Large Language Models (MLLMs) for planning and reflection.
+
+3. **Type of application**: The application is primarily a **generative model**, as it generates plans and actions based on the tasks and environmental observations.
+
+### Grade Justification
+
+The paper demonstrates practical applications with significant results, showing that Optimus-1 outperforms existing agents and exhibits near-human-level performance. The techniques proposed are innovative and can be replicated with relative ease, making it accessible for others to build upon. Therefore, I would grade this paper a **4**. It has practical applications and good results were proved, but it may require specialized hardware for optimal performance.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper presents Optimus-1, a multimodal agent designed to excel in long-horizon tasks within open-world environments like Minecraft. The authors identify challenges faced by existing agents, such as insufficient world knowledge and multimodal experience, and propose a Hybrid Multimodal Memory module to address these issues. This module consists of a Hierarchical Directed Knowledge Graph (HDKG) for structured knowledge representation and an Abstracted Multimodal Experience Pool (AMEP) for storing historical experiences. Experimental results demonstrate that Optimus-1 significantly outperforms existing agents, achieving near-human-level performance on various long-horizon tasks. The techniques introduced have potential applications in robotics, gaming, and AI-driven agents in complex environments.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

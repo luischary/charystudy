@@ -1,0 +1,13 @@
+```json
+{
+   "titulo": "Guiding a Diffusion Model with a Bad Version of Itself",
+   "publicacao": "🖼️ **Título chamativo:** Melhorando a qualidade de imagens geradas por modelos de difusão com uma versão inferior do próprio modelo! \n\n🔍 **Contexto leigo:** Modelos de difusão são usados para criar imagens a partir de ruído, mas equilibrar qualidade e variedade é um desafio. \n\n🧠 **Ponto técnico:** A técnica de autoguidance usa uma versão menos treinada do modelo principal para guiar a geração de imagens, melhorando a qualidade sem sacrificar a variedade. \n\n📊 **Resultados:** A técnica alcançou recordes de qualidade em geração de imagens no ImageNet, com FIDs de 1.01 para 64x64 e 1.25 para 512x512, superando métodos anteriores. \n\n👉 **Call to action:** Curioso para saber mais sobre como essa técnica pode revolucionar a geração de imagens? Vamos discutir! \n\n#MachineLearning #DataScience #DiffusionModels #AIResearch",
+   "chamadas_post": [
+      "Olha só essa novidade em geração de imagens!",
+      "Mais um grande avanço em modelos de difusão!",
+      "Descubra como melhorar a qualidade de imagens geradas por IA!",
+      "Inovações em IA: qualidade de imagem sem perder variedade!",
+      "Quer saber como guiar modelos de difusão de forma eficaz?"
+   ]
+}
+```

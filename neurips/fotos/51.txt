@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the unified approach to speech recognition across auditory, visual, and audiovisual modalities. Mention the motivation behind the research and the problem it addresses.
+
+2. **Main contributions**: Highlight the key contributions of the paper, such as the introduction of a single model for multiple tasks, the greedy pseudo-labelling approach, and the self-supervised pre-training method.
+
+3. **Proposed technique**: Describe the unified training strategy, including the architecture used (Transformer), the training process, and how the model leverages both labelled and unlabelled data.
+
+4. **Main results**: Summarize the performance metrics achieved by the proposed method, particularly in comparison to state-of-the-art models on various datasets.
+
+5. **Applications or possible practical applications**: Discuss potential applications of the unified speech recognition model, including its implications for accessibility technologies and surveillance.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on speech recognition across multiple modalities (auditory, visual, and audiovisual), which falls under the category of NLP (Natural Language Processing).
+
+2. **Type of model employed**: The model employs a Transformer architecture, which is specifically designed for handling sequential data and has been widely adopted in NLP tasks.
+
+3. **Type of application**: The primary application of the proposed model is as a generative model for speech recognition, as it generates transcriptions from audio and visual inputs.
+
+### Grade Justification
+
+The paper presents a novel approach to unified speech recognition that combines multiple modalities into a single model, achieving state-of-the-art results. The techniques proposed are innovative and have practical applications, particularly in enhancing speech recognition in noisy environments. The results are robust and can be replicated with standard hardware, making the work accessible to other researchers. Therefore, I would assign a grade of **5**.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper presents a unified approach to speech recognition that integrates auditory, visual, and audiovisual inputs into a single model. The authors address the traditional separation of these modalities in research, proposing a unified training strategy that enhances performance across all tasks. Key contributions include a greedy pseudo-labelling method to leverage unlabelled data effectively and a self-supervised pre-training framework. The proposed model, based on the Transformer architecture, achieves state-of-the-art performance on the LRS3 and LRS2 datasets, demonstrating significant improvements over existing methods. The practical applications of this research include advancements in accessibility technologies for individuals with speech impairments and potential uses in surveillance systems.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "5"
+}
+```

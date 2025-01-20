@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of selecting appropriate large language models (LLMs) from a model zoo while balancing energy efficiency and service level agreements (SLAs).
+2. **Main contributions**: Highlight the development of MESS+, an online stochastic optimization algorithm that improves energy efficiency in model selection while meeting SLA requirements.
+3. **Proposed technique**: Describe MESS+ as a decision-making framework that selects the most suitable LLM for each inference request based on energy consumption and accuracy constraints.
+4. **Main results**: Summarize the experimental results showing that MESS+ can reduce energy consumption significantly while maintaining SLA compliance compared to other selection strategies.
+5. **Applications or possible practical applications**: Discuss potential applications in commercial inference services where energy costs and output quality are critical.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on optimizing the selection of language models, which falls under the category of NLP (Natural Language Processing).
+2. **Type of model employed**: The proposed technique utilizes a general optimization framework rather than a specific deep learning architecture, making it a general model.
+3. **Type of application**: The application is primarily focused on optimizing model selection for inference tasks, which aligns with the classification of an optimizer.
+
+### Selected Options
+
+- **Macrotopic**: NLP
+- **Model**: General (deep learning)
+- **Application**: Optimizer
+
+### Grade Justification
+
+The paper presents a practical application of MESS+ that demonstrates significant energy savings while ensuring compliance with SLAs in real-world scenarios. The results are robust and show that the method can be implemented without requiring specialized hardware or software, making it accessible for broader use. Therefore, I would assign a grade of **5**.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper addresses the challenge of selecting appropriate large language models (LLMs) from a model zoo while balancing energy efficiency and service level agreements (SLAs). The authors introduce MESS+, an online stochastic optimization algorithm that enhances energy efficiency in model selection while ensuring compliance with SLA requirements. MESS+ operates on a per-inference-request basis, dynamically selecting the most suitable LLM based on energy consumption and accuracy constraints. Experimental results demonstrate that MESS+ can reduce energy consumption by up to 4.6× compared to random model selection while maintaining SLA compliance. This technique has practical applications in commercial inference services where managing energy costs and output quality is critical.",
+    "macrotopic": "NLP",
+    "model": "General (deep learning)",
+    "application": "Optimizer",
+    "grade": "5"
+}
+```

@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the focus on neural audio codecs and their evolution from compression to speech generation, highlighting the gap in waveform resynthesis from coarse tokens.
+  
+2. **Main contributions**: Identify the key contributions, including the introduction of new resynthesis techniques and the exploration of the impact of learning targets on audio quality.
+
+3. **Proposed technique**: Describe the techniques proposed, particularly the one-step regression method and the Codec Schrödinger Bridge, emphasizing their differences from existing methods.
+
+4. **Main results**: Summarize the experimental results, focusing on the performance metrics of the proposed methods compared to baselines and existing techniques.
+
+5. **Applications or possible practical applications**: Discuss potential applications in speech synthesis, audio generation, and integration with other modalities like text.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper primarily deals with audio processing, specifically focusing on neural audio codecs and their application in speech generation.
+
+2. **Type of model employed**: The paper employs deep learning techniques, particularly focusing on regression models and stochastic differential equations for the Codec Schrödinger Bridge.
+
+3. **Type of application**: The main application is generative modeling, as the techniques are aimed at generating high-fidelity audio from coarse representations.
+
+### Grade Justification
+
+The paper presents practical applications in speech synthesis and demonstrates good results with the proposed techniques. However, the methods require specialized knowledge and understanding of the underlying models, which may limit accessibility for broader use. Therefore, I would assign a grade of **4**: "The paper has practical application and good results were proved, but it is necessary very specialized hardware (eg. clusters of gpus) or software (custom kernels or libs) to be replicated."
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper explores the evolution of neural audio codecs from compression techniques to their application in speech generation, focusing on the often-overlooked aspect of waveform resynthesis from coarse tokens. The authors introduce new resynthesis methods, including a one-step regression approach and a Codec Schrödinger Bridge, emphasizing the importance of the learning target on audio quality. Experimental results demonstrate that the proposed methods outperform traditional coarse-to-fine approaches in terms of audio quality and efficiency, although they still face challenges in preserving content. The findings suggest potential applications in speech synthesis and audio generation, as well as integration with other modalities like text.",
+    "macrotopic": "audio processing",
+    "model": "general (deep learning)",
+    "application": "generative model",
+    "grade": "4"
+}
+```

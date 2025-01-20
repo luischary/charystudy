@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the development of a new model called ProtoS-ViT aimed at improving explainability in image classification tasks, particularly in biomedical contexts.
+  
+2. **Main contributions**: Highlight the two main contributions: the introduction of a comprehensive set of metrics for evaluating explanation quality and the proposal of the ProtoS-ViT architecture that enhances explanation quality compared to existing models.
+
+3. **Proposed technique**: Describe the architecture of ProtoS-ViT, emphasizing its use of frozen pre-trained Vision Transformers (ViT) and how it generates compact and interpretable explanations through a novel prototypical head.
+
+4. **Main results**: Summarize the performance metrics of ProtoS-ViT on various datasets, showcasing its accuracy and the compactness of its explanations compared to state-of-the-art models.
+
+5. **Applications or possible practical applications**: Discuss potential applications in fields requiring high transparency and interpretability, such as healthcare, where understanding model decisions is critical.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper primarily deals with explainable AI in image classification, particularly in the context of biomedical images, making it fit under **NLP** (Natural Language Processing) as it relates to understanding model decisions, but more accurately it fits under **others** due to its specific focus on explainability in image classification.
+
+2. **Type of model employed**: The model employs a **transformer** architecture, specifically leveraging Vision Transformers (ViT) as its backbone for feature extraction and classification.
+
+3. **Type of application**: The application of the model is primarily as a **generative model** since it generates explanations for image classifications, but it also serves as a **classification model** due to its primary function of classifying images.
+
+### Grade Justification
+
+The paper presents a novel architecture that significantly improves the explainability of image classification models, particularly in biomedical applications. The authors provide strong empirical evidence of the model's performance across various datasets, demonstrating both accuracy and compactness in explanations. The techniques proposed are relatively straightforward to implement, as they build on existing architectures and provide clear metrics for evaluation. Therefore, I would assign a grade of **4**. This indicates that while the results are promising and practical applications are evident, the implementation may require some specialized knowledge in deep learning frameworks.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper presents ProtoS-ViT, a novel architecture aimed at enhancing explainability in image classification tasks, particularly in biomedical contexts. The authors introduce a comprehensive set of metrics for evaluating explanation quality and demonstrate that ProtoS-ViT outperforms existing models in terms of explanation correctness, compactness, and consistency. The architecture leverages frozen pre-trained Vision Transformers (ViT) to generate interpretable explanations while maintaining competitive classification performance. Experimental results show that ProtoS-ViT achieves high accuracy and compactness across various datasets, making it a valuable tool for applications requiring transparency in decision-making, such as healthcare.",
+    "macrotopic": "others",
+    "model": "transformer",
+    "application": "classification model",
+    "grade": "4"
+}
+```

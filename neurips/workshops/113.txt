@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of cross-language code translation, specifically from Fortran to C++, and the limitations of traditional methods. Mention the proposed method that enhances translation quality through task-specific embedding alignment within a Retrieval-Augmented Generation (RAG) framework.
+
+2. **Main contributions**: Highlight the key contributions, including the introduction of a novel contrastive learning framework, the use of CodeBLEU for embedding alignment, and the significant improvements in translation quality without fine-tuning the language model.
+
+3. **Proposed technique**: Describe the technique involving the alignment of embeddings using CodeBLEU scores, the retrieval of relevant code snippets, and the integration of these snippets into the RAG framework to improve translation accuracy.
+
+4. **Main results**: Summarize the results, including the improvements in CodeBLEU scores on the HPC Fortran2C++ dataset and the Numerical Recipes dataset, demonstrating the effectiveness of the proposed method.
+
+5. **Applications or possible practical applications**: Discuss potential applications in software development, particularly in modernizing legacy codebases, and the adaptability of the method to other programming languages and tasks.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on code translation between programming languages, which falls under the category of "others" since it does not fit neatly into NLP, image processing, etc.
+
+2. **Type of model employed**: The paper employs a Retrieval-Augmented Generation (RAG) framework, which is a combination of deep learning techniques, but primarily focuses on the embedding alignment aspect. Therefore, "general (deep learning)" is the most fitting classification.
+
+3. **Type of application**: The primary goal of the paper is to enhance code translation, which is best classified as a "generative model" since it involves generating C++ code from Fortran snippets.
+
+### Grade Justification
+
+The paper demonstrates practical applications in improving code translation quality, with significant results shown on multiple datasets. The method does not require specialized hardware or software, making it relatively easy for others to replicate. Thus, it deserves a grade of **4** for its practical application, as it shows good results but may still require some expertise to implement effectively.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper addresses the challenge of cross-language code translation from Fortran to C++ by proposing a method that enhances translation quality through task-specific embedding alignment within a Retrieval-Augmented Generation (RAG) framework. The authors introduce a novel contrastive learning framework that aligns the retrieval model with the goal of maximizing translation quality, as measured by the CodeBLEU metric. By utilizing a dataset of 25,000 Fortran code snippets and their C++ translations, the authors compute pairwise CodeBLEU scores to optimize the embedding model for retrieving beneficial Fortran-C++ pairs. The results show a significant improvement in translation quality, with average CodeBLEU scores increasing from 0.64 to 0.73 on the HPC Fortran2C++ dataset and from 0.52 to 0.60 on the Numerical Recipes dataset. This method has practical applications in modernizing legacy codebases and can be adapted to other programming languages and tasks.",
+    "macrotopic": "others",
+    "model": "general (deep learning)",
+    "application": "generative model",
+    "grade": "4"
+}
+```

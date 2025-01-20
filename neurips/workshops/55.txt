@@ -1,0 +1,27 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce AutoSing, its purpose, and the context of singing voice synthesis (SVS).
+2. **Main contributions**: Highlight the novel training scheme, the integration of musical accompaniment, and the open-sourcing of the codebase.
+3. **Proposed technique**: Describe the architecture of AutoSing, including the two-stage process and the use of the Multi-Scale Neural Audio Codec (SNAC).
+4. **Main results**: Summarize the performance metrics, subjective listening tests, and comparisons with existing models.
+5. **Applications or possible practical applications**: Discuss potential uses in music production, entertainment, and further research in SVS.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on generating singing voices, which falls under audio processing.
+2. **Type of model employed**: The architecture is based on autoregressive models and transformers, making it a transformer-based model.
+3. **Type of application**: The primary goal is to generate singing voices from lyrics and musical accompaniment, classifying it as a generative model.
+
+### Grade Justification
+The paper presents a novel framework with practical applications in music generation and has shown competitive results compared to commercial models. The results were validated through subjective listening tests, and the authors have made their codebase open-source, which facilitates further research. However, the implementation may require specialized hardware for optimal performance. Therefore, I would assign a grade of **4**.
+
+### JSON Response
+```json
+{
+    "summary": "This paper introduces AutoSing, a novel framework for generating diverse and high-quality singing voices from lyrics and musical accompaniment. It enhances existing text-to-speech methods by incorporating musical input, allowing for synchronized vocal output. The main contributions include a new training scheme for autoregressive audio models and the release of an open-source codebase. AutoSing employs a two-stage architecture that utilizes the Multi-Scale Neural Audio Codec (SNAC) for efficient audio representation. Experimental results demonstrate that AutoSing performs competitively in subjective listening tests, showing improvements in creativity and harmony compared to existing models. The framework has practical applications in music production and could facilitate further research in singing voice synthesis.",
+    "macrotopic": "audio processing",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

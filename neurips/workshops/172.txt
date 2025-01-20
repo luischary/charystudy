@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the development of GraphText, a framework that enables large language models (LLMs) to perform graph reasoning by converting graph data into natural language.
+  
+2. **Main contributions**: Highlight the key contributions of the paper, such as the introduction of a graph-syntax tree, the ability to perform training-free graph reasoning, and the facilitation of interactive graph reasoning.
+
+3. **Proposed technique**: Describe how GraphText constructs a graph-syntax tree from graph data and how this tree is used to generate text prompts for LLMs to perform reasoning tasks.
+
+4. **Main results**: Summarize the experimental results that demonstrate the effectiveness of GraphText, including comparisons with existing methods and benchmarks.
+
+5. **Applications or possible practical applications**: Discuss potential applications of GraphText in various domains, such as academic paper classification, recommendation systems, and interactive AI systems.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper primarily deals with the intersection of natural language processing (NLP) and graph machine learning, making "NLP" the most fitting category.
+
+2. **Type of model employed**: The paper employs a transformer-based model (LLM) for graph reasoning, which is a key aspect of its methodology.
+
+3. **Type of application**: The application of the proposed technique is primarily for classification tasks, specifically in the context of node classification in graphs.
+
+### Grade Justification
+
+The paper presents a novel approach that shows good results in practical applications, particularly in training-free graph reasoning and interactive capabilities. The results indicate that GraphText can outperform traditional supervised methods in certain scenarios, and the framework is flexible enough to be applied to various types of graphs. However, it may require some specialized knowledge to implement effectively, which prevents it from receiving the highest grade. Therefore, I would assign a grade of **4**.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper introduces GraphText, a novel framework that enables large language models (LLMs) to perform graph reasoning by converting graph data into natural language. The authors address the limitations of existing graph neural networks (GNNs) by proposing a method that constructs a graph-syntax tree, allowing LLMs to engage in reasoning tasks without the need for extensive training on graph data. The main contributions include the introduction of a flexible framework for graph reasoning, the demonstration of training-free capabilities, and the facilitation of interactive reasoning between humans and AI. Experimental results show that GraphText outperforms traditional GNNs and existing in-context learning methods, setting new benchmarks in graph reasoning tasks. The framework has potential applications in areas such as academic paper classification, recommendation systems, and interactive AI systems.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "classification model",
+    "grade": "4"
+}
+```

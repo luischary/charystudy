@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the focus on reasoning capabilities in multimodal large language models (MLLMs), specifically examining audio MLLMs and their limitations in leveraging reasoning for classification tasks.
+  
+2. **Main contributions**: Highlight the key findings regarding the limitations of audio MLLMs in reasoning and classification, and the exploration of concept representations in audio.
+
+3. **Proposed technique**: Describe the methodology used in the experiments, including the use of in-context learning and the evaluation of reasoning capabilities through prompts.
+
+4. **Main results**: Summarize the performance metrics obtained from the experiments, particularly the AUC scores and the impact of different prompting strategies.
+
+5. **Applications or possible practical applications**: Discuss potential applications in ecological sound classification and the broader implications for understanding reasoning in MLLMs.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on multimodal large language models (MLLMs) that integrate audio and text, making it fit under the category of **NLP** as it primarily deals with language processing in a multimodal context.
+
+2. **Type of model employed**: The paper employs a **transformer** architecture, specifically the LTU model, which is a type of MLLM that utilizes transformers for processing audio and text.
+
+3. **Type of application**: The primary application discussed in the paper is a **classification model**, as it focuses on classifying audio inputs based on textual descriptions and reasoning capabilities.
+
+### Grade Justification
+
+The paper demonstrates practical applications in audio classification, particularly in low-resource scenarios, and provides empirical results that show the limitations of current models. However, the results indicate that while the model shows some capability, it does not surpass state-of-the-art performance and requires specialized hardware for fine-tuning. Therefore, I would assign a grade of **4**. This reflects that the paper has practical applications and good results were proved, but it necessitates specialized hardware or software to replicate.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper investigates the reasoning capabilities of multimodal large language models (MLLMs), particularly focusing on audio MLLMs and their limitations in leveraging reasoning for classification tasks. The authors demonstrate through experiments that audio MLLMs struggle to fully utilize their LLM's reasoning capabilities when generating audio captions, leading to challenges in classification. They explore the concept representations in audio MLLMs, revealing that these models do not effectively integrate audio and text information for hierarchical reasoning. The study highlights the need for better alignment between modalities to enhance reasoning in MLLMs.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "classification model",
+    "grade": "4"
+}
+```

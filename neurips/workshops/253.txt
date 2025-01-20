@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the development of a new framework called Embodied-RAG that integrates retrieval-augmented generation into embodied agents.
+  
+2. **Main contributions**: Highlight the key contributions, including the introduction of the Embodied-RAG system, the benchmark for evaluating it, and implications for future robotics research.
+
+3. **Proposed technique**: Describe the two main components of Embodied-RAG: Memory Construction (topological map and semantic forest) and Retrieval and Generation processes.
+
+4. **Main results**: Summarize the performance of Embodied-RAG compared to existing methods, emphasizing improvements in handling explicit, implicit, and global queries.
+
+5. **Applications or possible practical applications**: Discuss potential applications in robotics, particularly in navigation and language generation tasks in complex environments.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on the integration of retrieval-augmented generation in robotics, which falls under the category of "others" as it combines elements of NLP and robotics.
+
+2. **Type of model employed**: The paper employs a general deep learning approach, particularly leveraging large language models (LLMs) for memory retrieval and generation.
+
+3. **Type of application**: The application is primarily a generative model, as it generates navigation actions and language descriptions based on queries.
+
+### Grade Justification
+
+The paper demonstrates practical applications with good results, particularly in navigating and generating responses in complex environments. However, it requires specialized knowledge to implement the system effectively, which may limit accessibility for some users. Therefore, I would assign a grade of **4**.
+
+### JSON Response
+
+```json
+{
+    "summary": "The paper presents Embodied-RAG, a novel framework that integrates retrieval-augmented generation (RAG) into embodied agents, enabling them to construct a non-parametric memory system for navigation and language generation. The main contributions include the introduction of the Embodied-RAG system, a benchmark for evaluating its performance, and insights into enhancing generalist robotic agents. The proposed technique consists of two key components: Memory Construction, which creates a topological map and a hierarchical semantic forest for organizing observations, and Retrieval and Generation, which utilizes these structures to respond to queries. The results show that Embodied-RAG outperforms existing methods in handling over 200 tasks across various environments, demonstrating superior robustness and reasoning capabilities. Potential applications include improving robotic navigation and language generation in complex, real-world settings.",
+    "macrotopic": "others",
+    "model": "general (deep learning)",
+    "application": "generative model",
+    "grade": "4"
+}
+```

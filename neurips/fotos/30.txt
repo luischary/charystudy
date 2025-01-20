@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: The paper investigates why the Adam optimizer outperforms gradient descent (GD) in training large language models, particularly in the context of heavy-tailed class imbalance in language data.
+  
+2. **Main contributions**: The authors identify heavy-tailed class imbalance as a significant factor affecting the optimization dynamics of GD and Adam, demonstrating that this imbalance leads to slower convergence for GD on low-frequency classes.
+
+3. **Proposed technique**: The paper presents empirical evidence showing that Adam's normalization techniques allow it to make more uniform progress across classes, even in the presence of heavy-tailed distributions, while GD struggles with low-frequency classes.
+
+4. **Main results**: The results indicate that Adam consistently outperforms GD across various architectures and datasets, including language transformers and CNNs, due to its ability to handle class imbalance effectively.
+
+5. **Applications or possible practical applications**: The findings suggest that using Adam or reweighting loss functions can improve training performance on imbalanced datasets, which is relevant for tasks in natural language processing and computer vision.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper primarily deals with optimization in the context of machine learning, specifically focusing on language models, which falls under the category of **NLP**.
+
+2. **Type of model employed**: The paper discusses the use of **general (deep learning)** models, particularly transformers and CNNs, to analyze the performance of different optimizers.
+
+3. **Type of application**: The application is primarily focused on **optimizer** performance, as it evaluates and compares the effectiveness of different optimization algorithms in training models.
+
+### Grade Justification
+
+The paper presents a clear theoretical framework supported by empirical evidence, demonstrating that the findings are not only relevant to the authors' specific datasets but also have broader implications for the optimization of language models. The techniques discussed (like reweighting losses) can be implemented with standard hardware and software setups, making the results accessible to a wider audience. Therefore, I would assign a grade of **4**. 
+
+### JSON Response
+
+```json
+{
+    "summary": "The paper investigates why the Adam optimizer outperforms gradient descent (GD) in training large language models, particularly in the context of heavy-tailed class imbalance in language data. The authors identify heavy-tailed class imbalance as a significant factor affecting the optimization dynamics of GD and Adam, demonstrating that this imbalance leads to slower convergence for GD on low-frequency classes. The paper presents empirical evidence showing that Adam's normalization techniques allow it to make more uniform progress across classes, even in the presence of heavy-tailed distributions, while GD struggles with low-frequency classes. The results indicate that Adam consistently outperforms GD across various architectures and datasets, including language transformers and CNNs, due to its ability to handle class imbalance effectively. The findings suggest that using Adam or reweighting loss functions can improve training performance on imbalanced datasets, which is relevant for tasks in natural language processing and computer vision.",
+    "macrotopic": "NLP",
+    "model": "general (deep learning)",
+    "application": "optimizer",
+    "grade": "4"
+}
+```

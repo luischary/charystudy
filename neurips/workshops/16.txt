@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the development of a new method for activation pruning in large language models (LLMs).
+2. **Main contributions**: Highlight the key contributions of the paper, including the introduction of SCAP and its advantages over previous methods.
+3. **Proposed technique**: Describe the SCAP technique, emphasizing its mode-centering calibration and how it generalizes activation pruning.
+4. **Main results**: Summarize the empirical results, including speedup and sparsity achieved compared to existing methods.
+5. **Applications or possible practical applications**: Discuss potential applications of SCAP in real-world scenarios, particularly in deploying LLMs efficiently.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on optimizing large language models through activation pruning, which falls under the category of optimization.
+2. **Type of model employed**: The method is primarily applied to transformer architectures, which are widely used in NLP tasks.
+3. **Type of application**: The paper presents a generative model optimization technique, as it aims to enhance the efficiency of generative models like LLMs.
+
+### Selected Options
+
+- **Macrotopic**: Optimization
+- **Type of model employed**: Transformer
+- **Type of application**: Optimizer
+
+### Grade Justification
+
+The paper presents a practical application of the SCAP technique, demonstrating significant improvements in both sparsity and decoding speed without requiring specialized hardware. The results are validated across various models, making it accessible for replication and use in real-world applications. Therefore, I would assign a grade of **4**. This reflects that while the results are promising and practical, some specialized knowledge may still be required for implementation.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper introduces Statistical Calibrated Activation Pruning (SCAP), a novel post-training framework aimed at enhancing activation sparsity in large language models (LLMs). SCAP generalizes sparsification by focusing on input activations of Fully-Connected layers, allowing for flexible application across various transformer architectures. The method incorporates a Mode-Centering technique to pre-calibrate activation distributions, maximizing post-training sparsity. Empirical results demonstrate that SCAP achieves a 1.5× speedup in decoding compared to previous methods while maintaining model quality. The technique is applicable across a wide range of models, highlighting its practicality and scalability for efficient LLM deployment.",
+    "macrotopic": "Optimization",
+    "model": "Transformer",
+    "application": "Optimizer",
+    "grade": "4"
+}
+```

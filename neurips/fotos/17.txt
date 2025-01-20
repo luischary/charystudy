@@ -1,0 +1,9 @@
+```json
+{
+    "summary": "This paper presents a comprehensive analysis of the properties of planning algorithms that utilize large language models (LLMs). The authors identify significant shortcomings in existing methods, particularly regarding soundness and completeness, and propose a new approach called 'Thought of Search' that aims to enhance efficiency while maintaining these critical properties. The proposed method leverages LLMs to generate code for search components, allowing for accurate and efficient planning across various problem domains. The authors validate their approach through experiments on multiple search problems, demonstrating its effectiveness compared to existing LLM-based solutions.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "optimizer",
+    "grade": "4"
+}
+```

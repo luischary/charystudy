@@ -1,0 +1,7 @@
+{
+    "summary": "The paper presents Parrot, an autoregressive spoken dialogue language model that utilizes a novel pre-training and supervised fine-tuning (SFT) pipeline to enhance real-time spoken interactions. Unlike existing models that rely on text-based transcriptions, Parrot processes audio inputs directly, employing a unique 'next-token-pair prediction' objective to facilitate natural dialogue generation. The model is trained on both single-channel and dual-channel audio data, allowing it to understand and generate spoken interactions more fluidly. Extensive evaluations demonstrate that Parrot significantly outperforms baseline models in terms of accuracy in handling reflective pauses and interruptions, achieving a low latency of 300ms during inference. This advancement positions Parrot as a promising solution for real-time voice assistant applications, enabling more natural and engaging human-computer interactions.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "5"
+}

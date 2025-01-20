@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main goal of the paper, which is to enhance symbolic music generation through a three-modal guidance system.
+2. **Main contributions**: Highlight the key contributions, such as the modularization of input into three distinct modalities and the use of the FIGARO framework.
+3. **Proposed technique**: Describe the technique used, focusing on the transformer-based model and the specific input modalities (melody, expert description, and texture).
+4. **Main results**: Summarize the experimental results, including performance metrics and comparisons with previous models.
+5. **Applications or possible practical applications**: Discuss potential applications in music composition, education, and AI-assisted music generation.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on symbolic music generation, which falls under the category of audio processing.
+2. **Type of model employed**: The paper employs a transformer-based model, specifically the FIGARO framework, which is designed for music generation.
+3. **Type of application**: The application is primarily generative, as it aims to create new music compositions based on the provided inputs.
+
+### Grade Justification
+
+The paper demonstrates practical applications in music generation and shows good results in preliminary experiments. However, it requires specific knowledge in music composition and the use of the FIGARO framework, which may not be easily accessible to all users. Therefore, I would assign a grade of 4, as it has practical applications and good results, but requires specialized knowledge to replicate.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper presents a novel approach to symbolic music generation using a three-modal guidance system that incorporates melody, structural expert descriptions, and texture. Building on the transformer-based FIGARO framework, the authors modularize the input into distinct components, allowing for flexible music co-creation between humans and AI. The proposed technique involves embedding input data and generating music tokens through a transformer model, utilizing a bar-wise expert description alongside the melody and accompaniment. Preliminary results indicate that the new model outperforms previous versions in various metrics, demonstrating its effectiveness in generating coherent music pieces. The approach has potential applications in music composition, education, and AI-assisted music generation, providing tools for both novice and experienced composers to explore new musical ideas.",
+    "macrotopic": "audio processing",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

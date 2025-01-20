@@ -1,0 +1,13 @@
+```json
+{
+   "titulo": "Just Train Twice: Improving Group Robustness without Training Group Information",
+   "publicacao": "🚀 **Título chamativo:** Melhorando a Robustez de Grupos sem Informações de Treinamento de Grupo! \n\n🔍 **Contexto leigo:** Muitas vezes, modelos de IA são treinados para serem precisos em média, mas falham em certos grupos devido a correlações espúrias. Isso pode ser um problema em tarefas como a classificação de comentários online, onde certos grupos demográficos podem ser injustamente associados a toxicidade. \n\n🛠️ **Ponto técnico:** Apresentamos o JTT (Just Train Twice), uma abordagem em duas etapas que melhora o desempenho em grupos problemáticos sem precisar de anotações de grupo durante o treinamento. Primeiro, treinamos um modelo padrão e identificamos exemplos mal classificados. Em seguida, treinamos um segundo modelo que dá mais peso a esses exemplos, melhorando o desempenho nos grupos mais difíceis. \n\n📈 **Resultados:** O JTT melhora a precisão nos piores grupos em 16,2% em média, fechando 75% da lacuna entre o ERM padrão e métodos que usam informações completas de grupo, tudo isso sem precisar de anotações de grupo no conjunto de treinamento. \n\n👉 **Call to action:** Curioso para saber mais sobre como o JTT pode melhorar a robustez dos seus modelos? Entre em contato ou confira nosso artigo completo! \n\n#MachineLearning #DataScience #AI #Robustness #JTT",
+   "chamadas_post": [
+      "Olha só essa novidade em robustez de grupos!",
+      "Mais um grande avanço em IA sem anotações de grupo!",
+      "Descubra como melhorar a precisão em grupos difíceis!",
+      "Quer saber como o JTT pode ajudar seu modelo?",
+      "Melhore a robustez do seu modelo com o JTT!"
+   ]
+}
+```

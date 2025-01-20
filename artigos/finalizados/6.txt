@@ -1,0 +1,13 @@
+```json
+{
+   "titulo": "Hyphatia: a Card-Not-Present Fraud Detection System based on Self-Supervised Tabular Learning",
+   "publicacao": "🔍 **Descubra Hyphatia: A Nova Fronteira na Detecção de Fraudes Online!**\n\n🛒 **Contexto Leigo:** Fraudes em compras online, onde o cartão não está presente, são um problema crescente, com perdas estimadas em 10 bilhões de dólares nos EUA em 2024. Como podemos combater isso de forma eficaz?\n\n💡 **Ponto Técnico:** Conheça Hyphatia, um sistema inovador que utiliza o aprendizado auto-supervisionado em dados tabulares, superando modelos tradicionais como o XGBoost em 2.14% no AUROC. Usando a arquitetura SubTab, Hyphatia prioriza características não obfuscadas e oferece explicações detalhadas sobre a importância das características e desempenho temporal.\n\n📊 **Resultados:** Hyphatia detecta 67.44% dos casos de fraude no conjunto de dados IEEE-CIS, oferecendo uma solução mais rápida e econômica para treinamento, além de fornecer insights valiosos para a explicabilidade dos modelos de IA.\n\n👉 **Call to Action:** Quer saber mais sobre como Hyphatia está revolucionando a detecção de fraudes? Deixe seu comentário ou entre em contato!\n\n#FraudeOnline #MachineLearning #DataScience #InteligenciaArtificial",
+   "chamadas_post": [
+      "Olha só essa novidade em detecção de fraudes online!",
+      "Mais um grande avanço em segurança digital!",
+      "Descubra como Hyphatia está mudando o jogo contra fraudes!",
+      "Quer saber como combater fraudes online de forma eficaz? Confira!",
+      "Hyphatia: a inovação que você precisa conhecer na detecção de fraudes!"
+   ]
+}
+```

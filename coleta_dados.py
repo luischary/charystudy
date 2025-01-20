@@ -118,7 +118,7 @@ def extrai_classificacao(row):
     indice = 0
     while not achou_papers:
         campo = campos[indice]
-        if campo == "Papers":
+        if campo == "papers":
             achou_papers = True
         indice += 1
 
@@ -164,5 +164,5 @@ def faz_campos(df_path):
 
 
 if __name__ == "__main__":
-    mapeia_repo(r"C:\Users\Luis Felipe Chary\Downloads\papers\Papers")
+    mapeia_repo("./papers")
     faz_campos("extracao.xlsx")

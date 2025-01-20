@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of fixed tokenizers in language models when applied to new domains, particularly in protein sequences, and present the proposed solution, Sparse Sinkhorn Token Translation (S2T2).
+  
+2. **Main contributions**: Highlight the key advancements made by S2T2 in improving tokenization for out-of-domain data, including better compression and perplexity.
+
+3. **Proposed technique**: Describe how S2T2 works, focusing on its ability to learn token translations without requiring parallel data and its integration with existing language models.
+
+4. **Main results**: Summarize the experimental findings, including comparisons with baseline methods and the performance improvements achieved by S2T2.
+
+5. **Applications or possible practical applications**: Discuss potential applications of S2T2 in other domains beyond protein sequences, such as code and image processing.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper deals with adapting language models, which falls under the category of NLP (Natural Language Processing).
+  
+2. **Type of model employed**: The technique involves deep learning principles, particularly in the context of language models, making "general (deep learning)" the most fitting classification.
+
+3. **Type of application**: The primary focus is on improving the performance of language models for specific tasks, which aligns with a "generative model" application.
+
+### Grade Justification
+
+The paper presents a novel approach (S2T2) that shows significant improvements in perplexity and compression for language models applied to protein sequences. The results are robust and demonstrate the technique's effectiveness, suggesting practical applications in other domains. However, the implementation may require specialized knowledge in model training and adaptation, which could limit accessibility for some users. Therefore, I would assign a grade of **4**: "The paper has practical application and good results were proved, but it is necessary very specialized hardware (eg. clusters of gpus) or software (custom kernels or libs) to be replicated."
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper addresses the limitations of fixed tokenizers in large language models (LLMs) when applied to new domains, particularly in the context of protein sequences. The authors introduce Sparse Sinkhorn Token Translation (S2T2), a method that trains a tailored tokenizer for the target domain and learns to translate between source and target tokens without requiring parallel data. S2T2 demonstrates significant improvements in both perplexity and compression when fine-tuning LLMs on out-of-domain data, outperforming traditional methods. The experimental results show that S2T2 can effectively initialize continual fine-tuning on protein sequences and that translations learned from smaller models can be transferred to larger models, enhancing performance at a lower cost. The technique has potential applications in other domains, such as code and image processing, indicating its versatility and relevance in the field of NLP.",
+    "macrotopic": "NLP",
+    "model": "general (deep learning)",
+    "application": "generative model",
+    "grade": "4"
+}
+```

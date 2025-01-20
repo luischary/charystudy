@@ -1,0 +1,34 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of exploration in sparse reward environments within reinforcement learning, specifically in Contextual Markov Decision Processes (CMDPs). Mention the limitations of existing methods and the introduction of the new method, ETD.
+
+2. **Main contributions**: Highlight the key contributions of the paper, including the introduction of temporal distance as a metric for state similarity and the demonstration of ETD's effectiveness over existing methods.
+
+3. **Proposed technique**: Describe the ETD method, focusing on how it utilizes temporal distance for intrinsic reward computation and the use of contrastive learning to estimate these distances.
+
+4. **Main results**: Summarize the experimental results that show ETD's superior performance in various CMDP environments compared to state-of-the-art methods.
+
+5. **Applications or possible practical applications**: Discuss potential applications of ETD in real-world scenarios, such as robotics and AI in complex environments requiring exploration.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on reinforcement learning, specifically addressing exploration strategies in CMDPs, which falls under the broader category of "reinforcement learning."
+
+2. **Type of model employed**: The proposed method utilizes deep learning techniques, particularly through the use of contrastive learning and neural networks to estimate temporal distances, making it a "general (deep learning)" model.
+
+3. **Type of application**: The primary goal of the proposed method is to enhance exploration in reinforcement learning tasks, categorizing it as a "generative model" since it generates intrinsic rewards based on state novelty.
+
+### Summary and Classification
+
+```json
+{
+    "summary": "This paper addresses the challenge of exploration in sparse reward environments within reinforcement learning, particularly in Contextual Markov Decision Processes (CMDPs). The authors introduce a novel method called Episodic Novelty Through Temporal Distance (ETD), which utilizes temporal distance as a robust metric for state similarity and intrinsic reward computation. ETD significantly outperforms existing methods in enhancing exploration and generalization across various CMDP environments, as demonstrated through extensive experiments on challenging tasks such as MiniGrid and MiniWorld. The results indicate that ETD not only improves sample efficiency but also maintains effectiveness in high-dimensional pixel-based observations. Potential applications of ETD include robotics and AI systems that require efficient exploration strategies in complex environments.",
+    "macrotopic": "reinforcement learning",
+    "model": "general (deep learning)",
+    "application": "generative model",
+    "grade": "5"
+}
+```
+
+### Grade Justification
+I assigned a grade of 5 because the paper presents a practical application with good results that are demonstrated across multiple challenging environments. The method is innovative and shows significant improvements over existing techniques, making it relatively easy for others to replicate and apply in various contexts.

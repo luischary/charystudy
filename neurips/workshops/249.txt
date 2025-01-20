@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of planning in embodied tasks and the limitations of existing methods. Present the LLM-DP as a solution that combines LLMs with symbolic planning.
+  
+2. **Main contributions**: Highlight the integration of LLMs with symbolic planners, the efficiency of LLM-DP in solving tasks in Alfworld, and the advantages over existing methods.
+
+3. **Proposed technique**: Describe the architecture of LLM-DP, including how it uses LLMs for understanding actions and symbolic planners for generating plans, along with the sampling of beliefs.
+
+4. **Main results**: Summarize the performance metrics of LLM-DP compared to baselines, emphasizing accuracy and efficiency in task completion.
+
+5. **Applications or possible practical applications**: Discuss potential applications in robotics, AI-driven agents, and other domains requiring planning under uncertainty.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper primarily deals with the integration of language models and planning, which falls under the category of NLP due to the use of LLMs for understanding and generating language-based instructions.
+
+2. **Type of model employed**: The model employs a combination of a large language model (LLM) and a symbolic planner, which can be classified as a general deep learning model due to the use of LLMs.
+
+3. **Type of application**: The application is primarily a generative model, as it generates plans based on natural language instructions and symbolic representations.
+
+### Grade Justification
+
+The paper demonstrates practical applications in embodied AI tasks, showing good results in the Alfworld environment. The method is efficient and can be replicated with standard hardware and software setups, making it accessible for further research and application. Therefore, I would assign a grade of **4**. While the results are promising, they may require some specialized knowledge to implement effectively.
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper addresses the challenges of planning in embodied tasks using Large Language Models (LLMs) and symbolic planners. It introduces the LLM Dynamic Planner (LLM-DP), a neuro-symbolic framework that leverages the strengths of LLMs in handling noisy observations and the efficiency of symbolic planners in generating optimal plans. The main contributions include the successful integration of LLMs with symbolic planning, demonstrating that LLM-DP outperforms existing methods in solving tasks in the Alfworld environment. The proposed technique involves using LLMs to translate natural language instructions into PDDL (Planning Domain Definition Language) goals and sampling beliefs to generate plausible world states for planning. The results show that LLM-DP achieves an accuracy of 97% and completes tasks more efficiently than the LLM-only baseline, ReAct. Potential applications include robotics, AI-driven agents, and other domains requiring effective planning under uncertainty.",
+    "macrotopic": "NLP",
+    "model": "general (deep learning)",
+    "application": "generative model",
+    "grade": "4"
+}
+```

@@ -1,0 +1,35 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the exploration of multimodal large language models (MLLMs) and their ability to follow visual instructions embedded in images.
+  
+2. **Main contributions**: Highlight the introduction of the VISUAL MODALITY INSTRUCTION (VIM) setting, the adaptation of VIM to various benchmarks, and the development of the V-MLLM model.
+
+3. **Proposed technique**: Describe the VIM setting and the V-MLLM model, emphasizing how they enhance the instruction-following capabilities of MLLMs.
+
+4. **Main results**: Summarize the performance comparisons between the V-MLLM and other models under both TEM and VIM settings, noting the significant performance disparities.
+
+5. **Applications or possible practical applications**: Discuss the potential applications of VIM and V-MLLM in real-world scenarios, such as UI navigation and agent development.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on multimodal large language models, which combine text and visual data, thus it falls under **NLP** as it deals with language models and their interaction with visual data.
+
+2. **Type of model employed**: The paper discusses a new model (V-MLLM) that builds upon existing architectures like LLaVA, which are based on **transformer** models.
+
+3. **Type of application**: The primary focus is on instruction following in a multimodal context, which aligns with a **generative model** since it generates responses based on visual and textual inputs.
+
+### Grade Justification
+
+The paper presents a novel approach to evaluating MLLMs through the VIM setting and demonstrates the effectiveness of the V-MLLM model. The results show significant improvements in instruction following capabilities, particularly in the VIM setting. However, while the results are promising, the practical application may require specialized knowledge to implement effectively. Therefore, I would assign a grade of **4**: "The paper has practical application and good results were proved, but it is necessary very specialized hardware (eg. clusters of gpus) or software (custom kernels or libs) to be replicated."
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper investigates the capabilities of multimodal large language models (MLLMs) in following visual instructions embedded in images, introducing a new evaluation setting called VISUAL MODALITY INSTRUCTION (VIM). The authors adapt VIM to eight benchmarks and reveal significant performance disparities between traditional text-modality instruction (TEM) and VIM settings for open-source MLLMs. To address these challenges, they propose V-MLLM, a model designed for robust instruction following in both text and visual modalities. The results indicate that V-MLLM outperforms existing open-source models, particularly in the VIM setting, highlighting the need for improved visual comprehension in MLLMs. Practical applications of this work include enhancing user interface navigation and developing intelligent agents that can interpret visual instructions effectively.",
+    "macrotopic": "NLP",
+    "model": "transformer",
+    "application": "generative model",
+    "grade": "4"
+}
+```

@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the main focus of the paper, which is the integration of textual data into high-dimensional time series forecasting using a novel framework.
+2. **Main contributions**: Highlight the key contributions of the paper, including the introduction of the TextFusionHTS framework and the validation of its effectiveness through experiments.
+3. **Proposed technique**: Describe the dual-tower structure of the TextFusionHTS framework, detailing how it processes both time series and textual data.
+4. **Main results**: Summarize the experimental results, emphasizing the improvements in forecasting accuracy when incorporating textual data.
+5. **Applications or possible practical applications**: Discuss potential applications in various domains such as finance, healthcare, and traffic forecasting.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on time series forecasting, specifically integrating textual data, which falls under the category of "others" since it combines elements of NLP and time series analysis.
+2. **Type of model employed**: The proposed framework utilizes a combination of transformer models (for textual data) and patch-based methods (for time series), making "transformer" the most fitting classification.
+3. **Type of application**: The primary goal of the framework is to enhance forecasting accuracy, categorizing it as a "regression model" since it predicts future values based on historical data.
+
+### Grade Justification
+
+The paper presents a novel approach to time series forecasting by integrating textual data, demonstrating significant improvements in predictive performance through extensive experiments. The results are promising and suggest practical applications across various fields. However, the implementation requires specific models and techniques that may not be readily accessible to all practitioners. Therefore, I would assign a grade of **4**: "The paper has practical application and good results were proved, but it is necessary very specialized hardware (e.g., clusters of GPUs) or software (custom kernels or libs) to be replicated."
+
+### JSON Response
+
+```json
+{
+    "summary": "This paper explores the integration of textual data into high-dimensional time series forecasting through a novel framework called TextFusionHTS. The authors argue that traditional forecasting methods often overlook the potential of textual information, which can provide valuable context for improving predictive accuracy. The main contributions include the introduction of the TextFusionHTS framework and extensive experimental validation showing that incorporating textual data enhances forecasting performance. The proposed technique employs a dual-tower structure that processes time series and textual data separately before fusing them for final predictions. Experimental results indicate that the framework consistently outperforms traditional methods, particularly for longer forecasting horizons. This approach has potential applications in various domains, including finance, healthcare, and traffic forecasting, where understanding complex temporal patterns is crucial.",
+    "macrotopic": "others",
+    "model": "transformer",
+    "application": "regression model",
+    "grade": "4"
+}
+```

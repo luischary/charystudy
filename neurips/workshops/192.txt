@@ -1,0 +1,29 @@
+### Sketch of the Summary
+
+1. **Overview about the paper**: Introduce the problem of dataset creation for specialized tasks and the proposed CRAFT method.
+2. **Main contributions**: Highlight the key innovations and findings of the paper.
+3. **Proposed technique**: Describe the CRAFT method, including its phases and how it works.
+4. **Main results**: Summarize the performance outcomes of the CRAFT method across different tasks.
+5. **Applications or possible practical applications**: Discuss the potential uses of the CRAFT method in real-world scenarios.
+
+### Classification Justification
+
+1. **Macrotopic**: The paper focuses on dataset generation for NLP tasks, specifically using language models and corpus retrieval, which fits under NLP.
+2. **Type of model employed**: The CRAFT method utilizes instruction-tuned large language models (LLMs) for data augmentation, which aligns with the general category of deep learning models.
+3. **Type of application**: The primary application of CRAFT is to generate synthetic datasets for fine-tuning models, which is a generative model application.
+
+### Summary and Classification
+
+```json
+{
+    "summary": "The paper presents CRAFT (Corpus Retrieval and Augmentation for Fine-Tuning), a novel method for generating task-specific synthetic datasets using a small number of user-written examples. CRAFT addresses the challenge of creating high-quality datasets for specialized tasks, which is often resource-intensive and requires domain expertise. The method retrieves relevant documents from large-scale web-crawled corpora and uses instruction-tuned large language models to augment these documents into custom-formatted task samples. The results demonstrate that models fine-tuned on CRAFT-generated datasets outperform or match the performance of models trained on human-curated datasets across various tasks, including biology and medicine question-answering and summarization. CRAFT's ability to efficiently generate large-scale datasets opens up practical applications in diverse fields, enabling easier fine-tuning of language models for specific tasks without extensive manual data curation.",
+    "macrotopic": "NLP",
+    "model": "general (deep learning)",
+    "application": "generative model",
+    "grade": "5"
+}
+```
+
+### Grade Justification
+
+I assigned a grade of 5 to this paper because it presents a practical application with demonstrated good results across multiple tasks. The CRAFT method allows for the generation of high-quality synthetic datasets with minimal human effort, making it relatively easy for others to replicate and utilize. The authors have also made their code and datasets publicly available, enhancing the accessibility and applicability of their work.

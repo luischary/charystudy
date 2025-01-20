@@ -1,0 +1,12 @@
+{
+   "titulo": "Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction",
+   "publicacao": "🎨 Revolucionando a geração de imagens com o Visual AutoRegressive (VAR)! \n\n🔍 Imagine criar imagens incríveis de forma rápida e eficiente! O novo modelo VAR transforma a maneira como geramos imagens, superando métodos tradicionais e trazendo resultados impressionantes. \n\n🛠️ O VAR redefine o aprendizado autoregressivo em imagens, utilizando uma abordagem de 'previsão de próxima escala', em vez da tradicional 'previsão de próximo token'. Isso permite que transformadores AR aprendam distribuições visuais de forma mais rápida e generalizem melhor. \n\n📊 No benchmark ImageNet 256×256, o VAR melhorou significativamente a distância de inception Fréchet (FID) de 18.65 para 1.73 e a pontuação de inception (IS) de 80.4 para 350.2, com uma velocidade de inferência 20 vezes mais rápida! \n\n👉 Quer saber mais sobre essa inovação? Confira nosso demo online e explore os códigos e modelos disponíveis!\n\n#MachineLearning #DataScience #ImageGeneration #AI #DeepLearning",
+   "chamadas_post": [
+      "Olha só essa novidade em geração de imagens!",
+      "Mais um grande avanço em inteligência artificial!",
+      "Descubra como o VAR está transformando a geração de imagens!",
+      "Imagens incríveis geradas de forma rápida e eficiente!",
+      "Revolucionando a geração de imagens com o VAR!"
+   ],
+   "paper": "https://arxiv.org/abs/2404.02905"
+}
